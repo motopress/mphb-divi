@@ -1,0 +1,280 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Hotel Booking & Divi Integration\n"
+"POT-Creation-Date: 2018-10-26 17:53+0300\n"
+"PO-Revision-Date: 2017-02-10 17:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: mphb-divi.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:11
+msgid "Booking Form"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:19
+#: includes/modules/mphb-rates/mphb-rates.php:19
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:19
+msgid "ID"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:20
+#: includes/modules/mphb-rates/mphb-rates.php:20
+msgid "ID of accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:28
+#: includes/modules/mphb-rates/mphb-rates.php:28
+#: includes/modules/mphb-rooms/mphb-rooms.php:132
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:62
+#: includes/modules/mphb-services/mphb-services.php:28
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:132
+msgid "Class"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:29
+#: includes/modules/mphb-rates/mphb-rates.php:29
+#: includes/modules/mphb-rooms/mphb-rooms.php:133
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:63
+#: includes/modules/mphb-services/mphb-services.php:29
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:133
+msgid "Custom CSS class for shortcode wrapper."
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:71
+#: includes/modules/mphb-rates/mphb-rates.php:72
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:219
+msgid "Please insert accommodation id."
+msgstr ""
+
+#: includes/modules/mphb-rates/mphb-rates.php:11
+msgid "Accom. Rates"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:11
+msgid "Accom. List"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:19
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:28
+msgid "Title"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:20
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:29
+msgid "Whether to display title of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:23
+#: includes/modules/mphb-rooms/mphb-rooms.php:36
+#: includes/modules/mphb-rooms/mphb-rooms.php:49
+#: includes/modules/mphb-rooms/mphb-rooms.php:62
+#: includes/modules/mphb-rooms/mphb-rooms.php:75
+#: includes/modules/mphb-rooms/mphb-rooms.php:88
+#: includes/modules/mphb-rooms/mphb-rooms.php:101
+#: includes/modules/mphb-rooms/mphb-rooms.php:114
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:32
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:45
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:58
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:71
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:84
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:97
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:110
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:123
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:24
+#: includes/modules/mphb-rooms/mphb-rooms.php:37
+#: includes/modules/mphb-rooms/mphb-rooms.php:50
+#: includes/modules/mphb-rooms/mphb-rooms.php:63
+#: includes/modules/mphb-rooms/mphb-rooms.php:76
+#: includes/modules/mphb-rooms/mphb-rooms.php:89
+#: includes/modules/mphb-rooms/mphb-rooms.php:102
+#: includes/modules/mphb-rooms/mphb-rooms.php:115
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:33
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:46
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:59
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:72
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:85
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:98
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:111
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:124
+msgid "No"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:32
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:41
+msgid "Featured image"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:33
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:42
+msgid "Whether to display featured image of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:45
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:54
+msgid "Gallery"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:46
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:55
+msgid "Whether to display gallery of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:58
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:67
+msgid "Excerpt"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:59
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:68
+msgid ""
+"Whether to display excerpt (short description) of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:71
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:80
+msgid "Details"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:72
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:81
+msgid "Whether to display details of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:84
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:93
+msgid "Price"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:85
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:94
+msgid "Whether to display price of the accommodation type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:97
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:106
+msgid "View Button"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:98
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:107
+msgid ""
+"Whether to display \"View Details\" button with the link to accommodation "
+"type."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:110
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:119
+msgid "Book Button"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:111
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:120
+msgid "Whether to display \"Book\" button."
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:123
+#: includes/modules/mphb-services/mphb-services.php:19
+msgid "IDs"
+msgstr ""
+
+#: includes/modules/mphb-rooms/mphb-rooms.php:124
+msgid "Comma-separated IDs of accommodations that will be shown."
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:11
+msgid "Search Availability"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:18
+msgid "Check-in date"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:21
+msgid "Check-in date presetted in the search form. Format: d/m/Y"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:27
+msgid "Check-out date"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:30
+msgid "Check-out date presetted in the search form. Format: d/m/Y"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:36
+msgid "Adults"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:39
+msgid "The number of adults presetted in the search form."
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:45
+msgid "Children"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:48
+msgid "The number of children presetted in the search form."
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:54
+msgid "Attributes"
+msgstr ""
+
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:56
+msgid "Comma separated list of attributes."
+msgstr ""
+
+#: includes/modules/mphb-services/mphb-services.php:11
+msgid "Accom. Services"
+msgstr ""
+
+#: includes/modules/mphb-services/mphb-services.php:20
+msgid ""
+"Comma-separated IDs of services that will be shown. All services by "
+"default."
+msgstr ""
+
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:11
+msgid "Single Accom."
+msgstr ""
+
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:20
+msgid "ID of accommodation type to display."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Hotel Booking & Divi Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin integrates your Divi theme with a popular MotoPress Hotel "
+"Booking plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr ""

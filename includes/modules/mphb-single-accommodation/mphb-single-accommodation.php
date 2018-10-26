@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
 
         function init(){
 
-            $this->name       = esc_html__( 'Single Accommodation', 'mphb-divi-integration' );
+            $this->name       = esc_html__( 'Single Accom.', 'mphb-divi' );
 
         }
 
@@ -16,8 +16,8 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
 
             return array(
                 'id' => array(
-                    'label'           => esc_html__( 'ID', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'ID of accommodation type to display.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'ID', 'mphb-divi' ),
+                    'description'     => esc_html__( 'ID of accommodation type to display.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(
@@ -25,12 +25,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'title' => array(
-                    'label'           => esc_html__( 'Title', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display title of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Title', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display title of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -38,12 +38,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'featured_image' => array(
-                    'label'           => esc_html__( 'Featured image', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display featured image of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Featured image', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display featured image of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -51,12 +51,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'gallery' => array(
-                    'label'           => esc_html__( 'Gallery', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display gallery of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Gallery', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display gallery of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -64,12 +64,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'excerpt' => array(
-                    'label'           => esc_html__( 'Excerpt', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display excerpt (short description) of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Excerpt', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display excerpt (short description) of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -77,12 +77,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'details' => array(
-                    'label'           => esc_html__( 'Details', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display details of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Details', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display details of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -90,12 +90,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'price' => array(
-                    'label'           => esc_html__( 'Price', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display price of the accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Price', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display price of the accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -103,12 +103,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'view_button' => array(
-                    'label'           => esc_html__( 'View Button', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display "View Details" button with the link to accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'View Button', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display "View Details" button with the link to accommodation type.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -116,12 +116,12 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'book_button' => array(
-                    'label'           => esc_html__( 'Book Button', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Whether to display "Book" button.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Book Button', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Whether to display "Book" button.', 'mphb-divi' ),
                     'type'              => 'yes_no_button',
                     'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi-integration' ),
-                        'off' => esc_html__( 'No', 'mphb-divi-integration' ),
+                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
+                        'off' => esc_html__( 'No', 'mphb-divi' ),
                     ),
                     'default_on_front'  => 'on',
                     'computed_affects'   => array(
@@ -129,8 +129,8 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
                     ),
                 ),
                 'class' => array(
-                    'label'           => esc_html__( 'Class', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Class', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(

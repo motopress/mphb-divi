@@ -8,61 +8,59 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
 
         function init(){
 
-            $this->name       = esc_html__( 'Availability Search Form', 'mphb-divi-integration' );
-            $this->plural     = esc_html__( 'Availability Search Forms', 'mphb-divi-integration' );
-
+            $this->name       = esc_html__( 'Search Availability', 'mphb-divi' );
         }
 
         function get_fields(){
 
             return array(
                 'check_in_date' => array(
-                    'label'           => esc_html__( 'Check-in date', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Check-in date', 'mphb-divi' ),
                     'type'            => 'text',
                     'default'           => '',
-                    'description'     => esc_html__( 'Check-in date presetted in the search form. Format: d/m/Y', 'mphb-divi-integration' ),
+                    'description'     => esc_html__( 'Check-in date presetted in the search form. Format: d/m/Y', 'mphb-divi' ),
                     'computed_affects'   => array(
                         '__form',
                     ),
                 ),
                 'check_out_date' => array(
-                    'label'           => esc_html__( 'Check-out date', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Check-out date', 'mphb-divi' ),
                     'type'            => 'text',
                     'default'           => '',
-                    'description'     => esc_html__( 'Check-out date presetted in the search form. Format: d/m/Y', 'mphb-divi-integration' ),
+                    'description'     => esc_html__( 'Check-out date presetted in the search form. Format: d/m/Y', 'mphb-divi' ),
                     'computed_affects'   => array(
                         '__form',
                     ),
                 ),
                 'adults' => array(
-                    'label'           => esc_html__( 'Adults', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Adults', 'mphb-divi' ),
                     'type'            => 'text',
                     'default'           => '',
-                    'description'     => esc_html__( 'The number of adults presetted in the search form.', 'mphb-divi-integration' ),
+                    'description'     => esc_html__( 'The number of adults presetted in the search form.', 'mphb-divi' ),
                     'computed_affects'   => array(
                         '__form',
                     ),
                 ),
                 'children' => array(
-                    'label'           => esc_html__( 'Children', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Children', 'mphb-divi' ),
                     'type'            => 'input',
                     'default'           => '',
-                    'description'     => esc_html__( 'The number of children presetted in the search form.', 'mphb-divi-integration' ),
+                    'description'     => esc_html__( 'The number of children presetted in the search form.', 'mphb-divi' ),
                     'computed_affects'   => array(
                         '__form',
                     ),
                 ),
                 'attributes' => array(
-                    'label'           => esc_html__( 'Attributes', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Attributes', 'mphb-divi' ),
                     'type'            => 'textarea',
-                    'description'     => esc_html__( 'Comma separated list of attributes.', 'mphb-divi-integration' ),
+                    'description'     => esc_html__( 'Comma separated list of attributes.', 'mphb-divi' ),
                     'computed_affects'   => array(
                         '__form',
                     ),
                 ),
                 'class' => array(
-                    'label'           => esc_html__( 'Class', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Class', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(

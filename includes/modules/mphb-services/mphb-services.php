@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Services_Module') && class_exists('ET_Builder_Module
 
         function init(){
 
-            $this->name = esc_html__( 'Services', 'mphb-divi-integration' );
+            $this->name = esc_html__( 'Accom. Services', 'mphb-divi' );
 
         }
 
@@ -16,8 +16,8 @@ if(!class_exists('MPHB_Divi_Services_Module') && class_exists('ET_Builder_Module
 
             return array(
                 'ids' => array(
-                    'label'           => esc_html__( 'IDs', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Comma-separated IDs of services that will be shown. All services by default.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'IDs', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Comma-separated IDs of services that will be shown. All services by default.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(
@@ -25,8 +25,8 @@ if(!class_exists('MPHB_Divi_Services_Module') && class_exists('ET_Builder_Module
                     ),
                 ),
                 'class' => array(
-                    'label'           => esc_html__( 'Class', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Class', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(

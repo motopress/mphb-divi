@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
         function init(){
 
-            $this->name       = esc_html__( 'Booking Form', 'mphb-divi-integration' );
+            $this->name       = esc_html__( 'Booking Form', 'mphb-divi' );
 
         }
 
@@ -16,8 +16,8 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
             return array(
                 'id' => array(
-                    'label'           => esc_html__( 'ID', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'ID of accommodation type.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'ID', 'mphb-divi' ),
+                    'description'     => esc_html__( 'ID of accommodation type.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(
@@ -25,8 +25,8 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
                     ),
                 ),
                 'class' => array(
-                    'label'           => esc_html__( 'Class', 'mphb-divi-integration' ),
-                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi-integration' ),
+                    'label'           => esc_html__( 'Class', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
                     'computed_affects'   => array(

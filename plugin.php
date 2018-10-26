@@ -1,8 +1,8 @@
 <?php
 class MPHB_Divi extends DiviExtension {
 
-    public $name = 'mphb-divi-integration';
-    public $gettext_domain = 'mphb-divi-integration';
+    public $name = 'mphb-divi';
+    public $gettext_domain = 'mphb-divi';
     public $version = '1.0.0';
 
     private static $instance = null;
@@ -23,7 +23,7 @@ class MPHB_Divi extends DiviExtension {
     /**
      * MPHB_Divi constructor.
      */
-    public function __construct ( $name = 'mphb-divi-integration', $args = array() ) {
+    public function __construct ( $name = 'mphb-divi', $args = array() ) {
 
         $this->plugin_dir = plugin_dir_path( __FILE__ );
         $this->plugin_dir_url = plugin_dir_url( __FILE__ );
