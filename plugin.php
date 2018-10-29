@@ -2,8 +2,8 @@
 class MPHB_Divi extends DiviExtension {
 
     public $name = 'mphb-divi';
-    public $gettext_domain = 'mphb-divi';
-    public $version = '1.0.0';
+    public $gettext_domain;
+    public $version;
 
     private static $instance = null;
 
@@ -29,6 +29,10 @@ class MPHB_Divi extends DiviExtension {
         $this->plugin_dir_url = plugin_dir_url( __FILE__ );
         $this->addActions();
         $this->loadIncludes();
+
+        $pluginData		 = get_plugin_data("{$this->plugin_dir}/mphb-divi.php");
+        $this->version = isset( $pluginData['Version'] ) ? $pluginData['Version'] : '';
+        $this->gettext_domain = isset( $pluginData['TextDomain'] ) ? $pluginData['TextDomain'] : '';
 
         parent::__construct($name,$args);
 
@@ -62,7 +66,7 @@ class MPHB_Divi extends DiviExtension {
      */
     public function enqueueScripts () {
 
-        wp_enqueue_style( 'mphb-divi-style', $this->plugin_dir_url . 'assets/style.css' );
+        wp_enqueue_style( 'mphb-divi-style', $this->plugin_dir_url . 'assets/style.css', array(), $this->version );
 
     }
 
@@ -71,7 +75,7 @@ class MPHB_Divi extends DiviExtension {
      */
     public function enqueueCustomizerScripts () {
 
-        wp_enqueue_script( 'mphb-divi-customize-preview', $this->plugin_dir_url . 'assets/customize-preview.js', array( 'jquery', 'customize-preview' ) );
+        wp_enqueue_script( 'mphb-divi-customize-preview', $this->plugin_dir_url . 'assets/customize-preview.js', array( 'jquery', 'customize-preview' ), $this->version );
 
     }
 

@@ -102,10 +102,10 @@
     .mphb_sc_search-wrapper.horizontal-center form > p.mphb-required-fields-tip, .mphb_sc_search-wrapper.horizontal-left form > p.mphb-required-fields-tip {
       width: 100%;
       display: none; }
-    .mphb_sc_search-wrapper.horizontal-center form > p.mphb_sc_search-submit-button-wrapper, .mphb_sc_search-wrapper.horizontal-left form > p.mphb_sc_search-submit-button-wrapper {
-      text-align: center; }
 .mphb_sc_search-wrapper.horizontal-center form {
   justify-content: center; }
+  .mphb_sc_search-wrapper.horizontal-center form > p.mphb_sc_search-submit-button-wrapper {
+    text-align: center; }
 .mphb_sc_search-wrapper.horizontal-left form {
   justify-content: flex-start; }
 

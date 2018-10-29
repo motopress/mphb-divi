@@ -78,15 +78,18 @@
                     width: 100%;
                     display: none;
                 }
-                &.mphb_sc_search-submit-button-wrapper{
-                    text-align: center;
-                }
+
             }
         }
     }
     &.horizontal-center{
         form{
             justify-content: center;
+            > p{
+                &.mphb_sc_search-submit-button-wrapper{
+                    text-align: center;
+                }
+            }
         }
     }
     &.horizontal-left{

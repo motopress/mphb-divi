@@ -21,5 +21,5 @@ Hotel Booking & Divi Integration plugin is distributed under the terms of the GN
 
 ## Changelog
 
-= 1.0.0, Dec 23 2016 =
+= 1.0.0, Oct 21 2018 =
 * Initial release
