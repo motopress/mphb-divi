@@ -58,6 +58,20 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
                         '__form',
                     ),
                 ),
+                'form_style' => array(
+                    'label'           => esc_html__( 'Form preset', 'mphb-divi' ),
+                    'description'     => esc_html__( 'Form default styling.', 'mphb-divi' ),
+                    'type'            => 'select',
+                    'options'         => array(
+                        'default' => esc_html__( 'Default', 'mphb-divi' ),
+                        'horizontal-center'  => esc_html__( 'Horizontal Center', 'mphb-divi' ),
+                        'horizontal-left'  => esc_html__( 'Horizontal Left', 'mphb-divi' ),
+                    ),
+                    'default'         => 'default',
+                    'computed_affects'   => array(
+                        '__form',
+                    ),
+                ),
                 'class' => array(
                     'label'           => esc_html__( 'Class', 'mphb-divi' ),
                     'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
@@ -76,6 +90,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
                         'adults',
                         'children',
                         'attributes',
+                        'form_style',
                         'class'
                     ),
                 )
@@ -90,12 +105,19 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
             $check_out_date = $this->props['check_out_date'];
             $adults = $this->props['adults'];
             $children = $this->props['children'];
+            $form_style = $this->props['form_style'];
+            $class = $this->props['class'];
+
+            if($form_style !== 'default'){
+                $class .= ' '.$form_style;
+            }
 
             return do_shortcode('[mphb_availability_search attributes="'.$attributes.'"
                                                                     check_in_date="'.$check_in_date.'"
                                                                     check_out_date="'.$check_out_date.'"
                                                                     adults="'.$adults.'"
                                                                     children="'.$children.'"
+                                                                    class="'.$class.'"
                                                                     ]');
 
         }
@@ -108,15 +130,22 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
                 'adults' => '',
                 'children' => '',
                 'attributes' => '',
+                'form_style' => 'default',
+                'class' => ''
             );
 
             $args = wp_parse_args($args, $defaults);
+
+            if($args['form_style'] !== 'default'){
+                $args['class'] .= ' '.$args['form_style'];
+            }
 
             return do_shortcode('[mphb_availability_search attributes="'.$args['attributes'].'" 
                                                                     check_in_date="'.$args['check_in_date'].'" 
                                                                     check_out_date="'.$args['check_out_date'].'" 
                                                                     adults="'.$args['adults'].'" 
-                                                                    children="'.$args['children'].'" 
+                                                                    children="'.$args['children'].'"
+                                                                    class="'.$args['class'].'" 
                                                                     ]');
 
         }

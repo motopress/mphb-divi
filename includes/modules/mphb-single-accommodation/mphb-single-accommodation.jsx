@@ -63,11 +63,15 @@ class MPHB_Divi_Room_Module extends Component {
         const flexsliderGalleries = $('.mphb-flexslider-gallery-wrapper');
 
         flexsliderGalleries.each( function( index, flexsliderGallery ) {
+
             new window.MPHB.FlexsliderGallery( flexsliderGallery ).initSliders();
-            $(flexsliderGallery).find('a').off("click");
-            $(flexsliderGallery).on('click', 'a', function (e) {
+
+            $(flexsliderGallery).closest('.type-mphb_room_type').on('click', 'a, .button', function (e) {
+
+                e.preventDefault();
                 e.stopImmediatePropagation();
-            })
+
+            });
 
         } );
 

@@ -161,7 +161,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
         function render($attrs, $content = null, $render_slug){
 
             $title = $this->props['title'];
-            $featred_image = $this->props['featured_image'];
+            $featured_image = $this->props['featured_image'];
             $gallery = $this->props['gallery'];
             $excerpt = $this->props['excerpt'];
             $details = $this->props['details'];
@@ -172,7 +172,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
             $class = $this->props['class'];
 
             return do_shortcode('[mphb_room title="'.$title.'" 
-                                                        featured_image="'.$featred_image.'" 
+                                                        featured_image="'.$featured_image.'" 
                                                         gallery="'.$gallery.'" 
                                                         excerpt="'.$excerpt.'" 
                                                         details="'.$details.'" 

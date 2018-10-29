@@ -62,7 +62,7 @@ class MPHB_Divi extends DiviExtension {
      */
     public function enqueueScripts () {
 
-        wp_enqueue_style( 'mphb-divi-style', $this->plugin_dir_url . 'styles/style.css' );
+        wp_enqueue_style( 'mphb-divi-style', $this->plugin_dir_url . 'assets/style.css' );
 
     }
 
@@ -71,16 +71,14 @@ class MPHB_Divi extends DiviExtension {
      */
     public function enqueueCustomizerScripts () {
 
-        wp_enqueue_script( 'mphb-divi-customize-preview', $this->plugin_dir_url . 'scripts/customize-preview.js', array( 'jquery', 'customize-preview' ) );
+        wp_enqueue_script( 'mphb-divi-customize-preview', $this->plugin_dir_url . 'assets/customize-preview.js', array( 'jquery', 'customize-preview' ) );
 
     }
 
     public function hook_et_builder_modules_loaded() {
 
         if ( file_exists( "{$this->plugin_dir}/includes/loader.php" ) ) {
-
             require_once "{$this->plugin_dir}/includes/loader.php";
-
         }
 
     }

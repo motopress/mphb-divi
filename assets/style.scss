@@ -60,7 +60,41 @@
 }
 
 .mphb_sc_search-wrapper{    
-    
+    &.horizontal-center, &.horizontal-left{
+        form{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            > p{
+                width: 100%;
+                @media screen and (min-width: 768px){
+                    width: 50%;
+                }
+                @media screen and (min-width: 992px){
+                    width: 25%;
+                }
+                &.mphb-required-fields-tip{
+                    width: 100%;
+                    display: none;
+                }
+                &.mphb_sc_search-submit-button-wrapper{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &.horizontal-center{
+        form{
+            justify-content: center;
+        }
+    }
+    &.horizontal-left{
+        form{
+            justify-content: flex-start;
+        }
+    }
+
 }
 
 .mphb_sc_rooms-wrapper{
@@ -158,9 +192,6 @@
         width: 100%;
         padding: 0 .5rem;
         margin-bottom: .875rem;
-        &:last-child{
-            margin-bottom: 0;
-        }
         &.mphb-adults-wrapper,
         &.mphb-check-children-date-wrapper{
             width: 50%;                
