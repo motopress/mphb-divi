@@ -59,8 +59,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
                     ),
                 ),
                 'form_style' => array(
-                    'label'           => esc_html__( 'Form preset', 'mphb-divi' ),
-                    'description'     => esc_html__( 'Form default styling.', 'mphb-divi' ),
+                    'label'           => esc_html__( 'Style', 'mphb-divi' ),
                     'type'            => 'select',
                     'options'         => array(
                         'default' => esc_html__( 'Default', 'mphb-divi' ),
