@@ -12,7 +12,7 @@ Integrates Divi theme with the MotoPress Hotel Booking plugin to modify content 
 
 == Description ==
 
-Are you building your WordPress property rental website with the renowned Divi theme? Do you plan on implementing a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=wp-org&utm_medium=textlink&utm_campaign=hotel-booking-divi-integration&utm_content=motopress-hotel-booking)?
+Are you building your WordPress property rental website with the renowned Divi theme? Do you plan on implementing a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description)?
 
 Then install this super lightweight utility to benefit from this duo! It removes customization limitations that appear when using Hotel Booking with Divi. This joint plugin is designed to help you tweak the styling and content generated with the Hotel Booking plugin via a familiar and user-friendly Divi Builder interface.
 
@@ -24,11 +24,12 @@ Just add and alter standard MotoPress Hotel Booking widgets like properties list
 
 The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking shortcodes to the Divi Builder, while the system page shortcodes are left up to the theme styling.
 
-This plugin requires:
+= Requirements =
 * Divi theme.
-* MotoPress Hotel Booking plugin ( [Lite](https://wordpress.org/plugins/motopress-hotel-booking-lite/) or [Pro](https://motopress.com/motopress-wordpress-hotel-booking-pro-vs-lite/?utm_source=wp-org&utm_medium=pro-features&utm_campaign=hotel-booking-divi-integration&utm_content=pro) ).
+* [MotoPress Hotel Booking Lite](https://wordpress.org/plugins/motopress-hotel-booking-lite/) or MotoPress Hotel Booking Pro ([Comparison Table](https://motopress.com/motopress-wordpress-hotel-booking-pro-vs-lite/?utm_source=divi-hb-integration&utm_medium=link-in-description)).
 
-Looking for fully functional hotel themes? Check out our [Hotel Booking & Property Rental WordPress Themes](https://motopress.com/products/category/hotel-rental-wordpress-themes/?utm_source=wp-org&utm_medium=hotel-themes&utm_campaign=hotel-booking-divi-integration&utm_content=wordpress-hotel-themes) where the booking plugin is included for free.
+= Looking for fully functional hotel themes? =
+Check out our [Hotel Booking & Property Rental WordPress Themes](https://motopress.com/products/category/hotel-rental-wordpress-themes/?utm_source=wp-org&utm_medium=hotel-themes&utm_campaign=hotel-booking-divi-integration&utm_content=wordpress-hotel-themes) where the booking plugin is included for free.
 
 == Installation ==
 1. Upload plugin to the /wp-content/plugins/ directory.
