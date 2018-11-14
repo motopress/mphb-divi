@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
 
         function init(){
 
-            $this->name       = esc_html__( 'Single Accom.', 'mphb-divi' );
+            $this->name       = esc_html__( 'HB Single Accom.', 'mphb-divi' );
 
         }
 

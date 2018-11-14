@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
 
         function init(){
 
-            $this->name       = esc_html__( 'Search Availability', 'mphb-divi' );
+            $this->name       = esc_html__( 'HB Search Availability', 'mphb-divi' );
         }
 
         function get_fields(){

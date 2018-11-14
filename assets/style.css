@@ -116,6 +116,29 @@
     .mphb_sc_checkout-wrapper input:not([type="submit"]):not([type="button"]), .mphb_sc_checkout-wrapper select, .mphb_sc_checkout-wrapper textarea {
       max-width: 50%; } }
 
+.mphb_sc_booking_form-wrapper.horizontal .mphb-required-fields-tip {
+  display: none; }
+.mphb_sc_booking_form-wrapper.horizontal .mphb-adults-wrapper,
+.mphb_sc_booking_form-wrapper.horizontal .mphb-check-children-date-wrapper {
+  width: 100%; }
+.mphb_sc_booking_form-wrapper.horizontal .mphb-reserve-btn-wrapper .button {
+  width: 100%; }
+.mphb_sc_booking_form-wrapper.horizontal form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .mphb_sc_booking_form-wrapper.horizontal form {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .mphb_sc_booking_form-wrapper.horizontal form > p {
+        max-width: 50%; } }
+  @media screen and (min-width: 991px) {
+    .mphb_sc_booking_form-wrapper.horizontal form {
+      flex-wrap: nowrap;
+      align-items: flex-end; } }
+
 .mphb-flexslider ul.slides {
   padding: 0 !important; }
   .mphb-flexslider ul.slides li a {

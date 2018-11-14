@@ -27,5 +27,9 @@ Hotel Booking & Divi Integration plugin is distributed under the terms of the GN
 
 == Changelog ==
 
+= 1.0.1, XXX =
+* Minor bugfixes and improvements.
+* "HB" abbreviation added to the titles of the Hotel Booking plugin widgets for grouping the plugin-related widgets together.
+
 = 1.0.0, Oct 21 2018 =
 * Initial release

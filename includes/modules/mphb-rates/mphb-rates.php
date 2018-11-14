@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Rates_Module') && class_exists('ET_Builder_Module'))
 
         function init(){
 
-            $this->name       = esc_html__( 'Accom. Rates', 'mphb-divi' );
+            $this->name       = esc_html__( 'HB Accom. Rates', 'mphb-divi' );
 
         }
 

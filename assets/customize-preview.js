@@ -204,7 +204,7 @@
                 '.widget_mphb_rooms_widget .button,'+
                 '.widget_mphb_search_availability_widget form .button,'+
                 '.mphb-booking-form .button{'+
-                'border-radius:' + to + ' !important;'+
+                'border-radius:' + to + 'px !important;'+
                 '}'+
                 '</style>';
 

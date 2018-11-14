@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
         function init(){
 
-            $this->name       = esc_html__( 'Booking Form', 'mphb-divi' );
+            $this->name       = esc_html__( 'HB Booking Form', 'mphb-divi' );
 
         }
 
@@ -20,6 +20,18 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
                     'description'     => esc_html__( 'ID of accommodation type.', 'mphb-divi' ),
                     'type'              => 'text',
                     'default'   => '',
+                    'computed_affects'   => array(
+                        '__form',
+                    ),
+                ),
+                'form_style' => array(
+                    'label'           => esc_html__( 'Style', 'mphb-divi' ),
+                    'type'            => 'select',
+                    'options'         => array(
+                        'default' => esc_html__( 'Default', 'mphb-divi' ),
+                        'horizontal'  => esc_html__( 'Horizontal', 'mphb-divi' ),
+                    ),
+                    'default'         => 'default',
                     'computed_affects'   => array(
                         '__form',
                     ),
@@ -38,6 +50,7 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
                     'computed_callback' => array( 'MPHB_Divi_Booking_Form_Module', 'get_booking_form' ),
                     'computed_depends_on' => array(
                         'class',
+                        'form_style',
                         'id'
                     ),
                 )
@@ -48,8 +61,13 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
         function render($attrs, $content = null, $render_slug){
 
-            $class = $this->props['class'];
             $ids = $this->props['id'];
+            $form_style = $this->props['form_style'];
+            $class = $this->props['class'];
+
+            if($form_style !== 'default'){
+                $class .= ' '.$form_style;
+            }
 
             return do_shortcode('[mphb_availability class="'.$class.'" id="'.$ids.'"]');
 
@@ -60,10 +78,16 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
             $defaults = array(
                 'id' => '',
-                'class' => ''
+                'class' => '',
+                'form_style' => 'default'
             );
 
             $args = wp_parse_args($args, $defaults);
+
+            if($args['form_style'] !== 'default'){
+                $args['class'] .= ' '.$args['form_style'];
+            }
+
             if($args['id'] !== ''){
                 return do_shortcode('[mphb_availability class="'.$args['class'].'" id="'.$args['id'].'"]');
             }
