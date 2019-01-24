@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Hotel Booking & Divi Integration\n"
-"POT-Creation-Date: 2018-10-29 15:07+0200\n"
+"POT-Creation-Date: 2019-01-24 14:57+0200\n"
 "PO-Revision-Date: 2017-02-10 17:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:11
-msgid "Booking Form"
+msgid "HB Booking Form"
 msgstr ""
 
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:19
@@ -37,6 +37,20 @@ msgid "ID of accommodation type."
 msgstr ""
 
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:28
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:62
+msgid "Style"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:31
+#: includes/modules/mphb-search-availability/mphb-search-availability.php:65
+msgid "Default"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:32
+msgid "Horizontal"
+msgstr ""
+
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:40
 #: includes/modules/mphb-rates/mphb-rates.php:28
 #: includes/modules/mphb-rooms/mphb-rooms.php:212
 #: includes/modules/mphb-search-availability/mphb-search-availability.php:75
@@ -45,7 +59,7 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
-#: includes/modules/mphb-booking-form/mphb-booking-form.php:29
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:41
 #: includes/modules/mphb-rates/mphb-rates.php:29
 #: includes/modules/mphb-rooms/mphb-rooms.php:213
 #: includes/modules/mphb-search-availability/mphb-search-availability.php:76
@@ -54,18 +68,18 @@ msgstr ""
 msgid "Custom CSS class for shortcode wrapper."
 msgstr ""
 
-#: includes/modules/mphb-booking-form/mphb-booking-form.php:71
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:95
 #: includes/modules/mphb-rates/mphb-rates.php:72
 #: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:219
 msgid "Please insert accommodation id."
 msgstr ""
 
 #: includes/modules/mphb-rates/mphb-rates.php:11
-msgid "Accom. Rates"
+msgid "HB Accom. Rates"
 msgstr ""
 
 #: includes/modules/mphb-rooms/mphb-rooms.php:11
-msgid "Accom. List"
+msgid "HB Accom. List"
 msgstr ""
 
 #: includes/modules/mphb-rooms/mphb-rooms.php:19
@@ -299,7 +313,7 @@ msgid ""
 msgstr ""
 
 #: includes/modules/mphb-search-availability/mphb-search-availability.php:11
-msgid "Search Availability"
+msgid "HB Search Availability"
 msgstr ""
 
 #: includes/modules/mphb-search-availability/mphb-search-availability.php:18
@@ -342,14 +356,6 @@ msgstr ""
 msgid "Comma separated list of attributes."
 msgstr ""
 
-#: includes/modules/mphb-search-availability/mphb-search-availability.php:62
-msgid "Style"
-msgstr ""
-
-#: includes/modules/mphb-search-availability/mphb-search-availability.php:65
-msgid "Default"
-msgstr ""
-
 #: includes/modules/mphb-search-availability/mphb-search-availability.php:66
 msgid "Horizontal Center"
 msgstr ""
@@ -359,7 +365,7 @@ msgid "Horizontal Left"
 msgstr ""
 
 #: includes/modules/mphb-services/mphb-services.php:11
-msgid "Accom. Services"
+msgid "HB Accom. Services"
 msgstr ""
 
 #: includes/modules/mphb-services/mphb-services.php:20
@@ -369,7 +375,7 @@ msgid ""
 msgstr ""
 
 #: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:11
-msgid "Single Accom."
+msgid "HB Single Accom."
 msgstr ""
 
 #: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:20
@@ -382,8 +388,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"This plugin integrates your Divi theme with a popular MotoPress Hotel "
-"Booking plugin."
+"Integrates Divi theme with the MotoPress Hotel Booking plugin to modify "
+"content and styles visually via Divi builder."
 msgstr ""
 
 #. Author of the plugin/theme
