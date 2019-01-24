@@ -16,6 +16,8 @@ Are you building your WordPress property rental website with the renowned Divi t
 
 Then install this super lightweight utility to benefit from this duo! It removes customization limitations that appear when using Hotel Booking with Divi. This joint plugin is designed to help you tweak the styling and content generated with the Hotel Booking plugin via a familiar and user-friendly Divi Builder interface.
 
+[youtube https://www.youtube.com/watch?v=Tyiw91WJX5o]
+
 = Customization, Styles, Colors etc. =
 No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer.
 
