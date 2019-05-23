@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Hotel Booking & Divi Integration
+ * Plugin URI: https://motopress.com/products/hotel-booking-divi-theme-integration/
  * Description: Integrates Divi theme with the MotoPress Hotel Booking plugin to modify content and styles visually via Divi builder.
  * Version: 1.0.2
  * Author: MotoPress

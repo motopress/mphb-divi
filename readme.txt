@@ -1,7 +1,7 @@
 === Hotel Booking & Divi Integration ===
 Contributors: MotoPress
 Donate link: https://motopress.com/
-Tags: divi, divi builder, hotel booking, reservation, property rental
+Tags: divi, divi builder, hotel booking, reservation, property rental, booking, hotel
 Requires at least: 4.0
 Tested up to: 5.2
 Stable tag: trunk
@@ -43,12 +43,12 @@ Check out our [Hotel Booking & Property Rental WordPress Themes](https://motopre
 2. accommodations
 
 == Copyright ==
-Hotel Booking & Divi Integration plugin, Copyright (C) 2018, MotoPress https://motopress.com/
+Hotel Booking & Divi Integration plugin, Copyright (C) 2019, MotoPress https://motopress.com/
 Hotel Booking & Divi Integration plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
-= 1.0.2, May 2019 =
+= 1.0.2, May 23 2019 =
 * Minor bugfixes and improvements.
 
 = 1.0.1, Jan 24 2019 =
