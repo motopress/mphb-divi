@@ -1,9 +1,9 @@
 {
-	"name": "divi-custom-modules",
+	"name": "mphb-divi",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"divi-scripts": "1.0.0",
+		"divi-scripts": "1.0.1",
 		"react": "^16.3.2",
 		"react-dom": "^16.3.2"
 	},
