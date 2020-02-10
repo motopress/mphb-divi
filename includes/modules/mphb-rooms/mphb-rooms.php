@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Rooms_Module') && class_exists('ET_Builder_Module'))
 
         function init(){
 
-            $this->name       = esc_html__( 'HB Accom. List', 'mphb-divi' );
+            $this->name = esc_html__( 'HB Accom. List', 'mphb-divi' );
 
         }
 
@@ -248,44 +248,7 @@ if(!class_exists('MPHB_Divi_Rooms_Module') && class_exists('ET_Builder_Module'))
 
         function render($attrs, $content = null, $render_slug){
 
-            $title = $this->props['title'];
-            $featured_image = $this->props['featured_image'];
-            $gallery = $this->props['gallery'];
-            $excerpt = $this->props['excerpt'];
-            $details = $this->props['details'];
-            $price = $this->props['price'];
-            $view_button = $this->props['view_button'];
-            $book_button = $this->props['book_button'];
-            $ids = $this->props['ids'];
-            $category = $this->props['category'];
-            $tags = $this->props['tags'];
-            $relation = $this->props['relation'];
-            $posts_per_page = $this->props['posts_per_page'];
-            $orderby = $this->props['orderby'];
-            $order = $this->props['order'];
-            $meta_key = $this->props['meta_key'];
-            $meta_type = $this->props['meta_type'];
-            $class = $this->props['class'];
-
-            return do_shortcode('[mphb_rooms title="'.$title.'" 
-                                                        featured_image="'.$featured_image.'" 
-                                                        gallery="'.$gallery.'" 
-                                                        excerpt="'.$excerpt.'" 
-                                                        details="'.$details.'" 
-                                                        price="'.$price.'" 
-                                                        view_button="'.$view_button.'" 
-                                                        book_button="'.$book_button.'" 
-                                                        ids="'.$ids.'"
-                                                        category="'.$category.'"
-                                                        tags="'.$tags.'"
-                                                        relation="'.$relation.'"
-                                                        posts_per_page="'.$posts_per_page.'"
-                                                        orderby="'.$orderby.'"
-                                                        order="'.$order.'"
-                                                        meta_key="'.$meta_key.'"
-                                                        meta_value="'.$meta_type.'"
-                                                        class="'.$class.'"
-                                                        ]');
+	        return self::get_rooms($this->props);
 
         }
 

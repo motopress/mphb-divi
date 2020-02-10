@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
 
         function init(){
 
-            $this->name       = esc_html__( 'HB Search Availability', 'mphb-divi' );
+            $this->name = esc_html__( 'HB Search Availability', 'mphb-divi' );
         }
 
         function get_fields(){
@@ -99,25 +99,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
 
         function render($attrs, $content = null, $render_slug){
 
-            $attributes = $this->props['attributes'];
-            $check_in_date = $this->props['check_in_date'];
-            $check_out_date = $this->props['check_out_date'];
-            $adults = $this->props['adults'];
-            $children = $this->props['children'];
-            $form_style = $this->props['form_style'];
-            $class = $this->props['class'];
-
-            if($form_style !== 'default'){
-                $class .= ' '.$form_style;
-            }
-
-            return do_shortcode('[mphb_availability_search attributes="'.$attributes.'"
-                                                                    check_in_date="'.$check_in_date.'"
-                                                                    check_out_date="'.$check_out_date.'"
-                                                                    adults="'.$adults.'"
-                                                                    children="'.$children.'"
-                                                                    class="'.$class.'"
-                                                                    ]');
+           return self::get_form($this->props);
 
         }
 

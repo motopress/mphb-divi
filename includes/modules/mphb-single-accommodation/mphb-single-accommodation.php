@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
 
         function init(){
 
-            $this->name       = esc_html__( 'HB Single Accom.', 'mphb-divi' );
+            $this->name = esc_html__( 'HB Single Accom.', 'mphb-divi' );
 
         }
 
@@ -160,28 +160,7 @@ if(!class_exists('MPHB_Divi_Single_Accommodation_Module') && class_exists('ET_Bu
 
         function render($attrs, $content = null, $render_slug){
 
-            $title = $this->props['title'];
-            $featured_image = $this->props['featured_image'];
-            $gallery = $this->props['gallery'];
-            $excerpt = $this->props['excerpt'];
-            $details = $this->props['details'];
-            $price = $this->props['price'];
-            $view_button = $this->props['view_button'];
-            $book_button = $this->props['book_button'];
-            $ids = $this->props['id'];
-            $class = $this->props['class'];
-
-            return do_shortcode('[mphb_room title="'.$title.'" 
-                                                        featured_image="'.$featured_image.'" 
-                                                        gallery="'.$gallery.'" 
-                                                        excerpt="'.$excerpt.'" 
-                                                        details="'.$details.'" 
-                                                        price="'.$price.'" 
-                                                        view_button="'.$view_button.'" 
-                                                        book_button="'.$book_button.'" 
-                                                        id="'.$ids.'"
-                                                        class="'.$class.'"
-                                                        ]');
+            return self::get_room($this->props);
 
         }
 

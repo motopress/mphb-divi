@@ -44,13 +44,13 @@
     }  
     input{
         display: inline-block;
-        &:not([type="submit"]):not([type="button"]){
-            padding: .875em 1.25em;
-        }
+    }
+    select,
+    input[type="text"]{
+        padding: .875em 1.25em;
     }
     select{
         display: inline-block;
-        padding: .875em 1.25em;
         height: auto;
     }
     label{
@@ -58,6 +58,26 @@
     }    
 
 }
+
+.mphb_sc_checkout-wrapper{
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="range"],
+    input[type="date"],
+    input[type="month"],
+    input[type="week"],
+    input[type="time"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="color"]{
+        padding: .875em 1.25em;
+    }
+}
+
 
 .mphb_sc_search-wrapper{    
     &.horizontal-center, &.horizontal-left{
@@ -109,11 +129,33 @@
 }
 
 .mphb_sc_checkout-wrapper {
-    input:not([type="submit"]):not([type="button"]), select, textarea{
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="range"],
+    input[type="date"],
+    input[type="month"],
+    input[type="week"],
+    input[type="time"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    select,
+    textarea{
         width: 100%;     
         display: block;
         @media screen and(min-width: 768px){
             max-width: 50%;
+        }
+    }
+
+    .mphb-date_of_birth-control{
+        select{
+            display: inline-block;
+            width: auto;
         }
     }
 }
@@ -265,20 +307,25 @@
     margin-top: 3.75rem;
 }
 
+.mphb-checkout-item-section{
+    margin-top: 1.25rem;
+}
+
 .mphb-checkout-section{
     margin-bottom: 4em;
 }
 
 .mphb_sc_checkout-services-list{
-    list-style: none !important;    
-    input{
-        display: inline !important;
-        margin: 0 10px 0 0;
-        width: auto !important;
-    }
+    list-style: none !important;
     select{
         display: inline-block;
         width: auto;
+    }
+    li{
+        margin-bottom: .625rem;
+        &:last-child{
+            margin-bottom: 0;
+        }
     }
 }
 

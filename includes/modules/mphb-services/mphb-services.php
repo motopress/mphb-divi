@@ -102,21 +102,7 @@ if(!class_exists('MPHB_Divi_Services_Module') && class_exists('ET_Builder_Module
 
         function render($attrs, $content = null, $render_slug){
 
-            $ids = $this->props['ids'];
-            $class = $this->props['class'];
-            $posts_per_page = $this->props['posts_per_page'];
-            $orderby = $this->props['orderby'];
-            $order = $this->props['order'];
-            $meta_key = $this->props['meta_key'];
-            $meta_type = $this->props['meta_type'];
-
-            return do_shortcode('[mphb_services class="'.$class.'" id="'.$ids.'"
-                                                    posts_per_page="'.$posts_per_page.'" 
-                                                    orderby="'.$orderby.'" 
-                                                    order="'.$order.'" 
-                                                    meta_key="'.$meta_key.'" 
-                                                    meta_type="'.$meta_type.'" 
-                                                    ]');
+        	return self::get_services($this->props);
 
         }
 

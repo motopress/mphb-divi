@@ -61,15 +61,7 @@ if(!class_exists('MPHB_Divi_Booking_Form_Module') && class_exists('ET_Builder_Mo
 
         function render($attrs, $content = null, $render_slug){
 
-            $ids = $this->props['id'];
-            $form_style = $this->props['form_style'];
-            $class = $this->props['class'];
-
-            if($form_style !== 'default'){
-                $class .= ' '.$form_style;
-            }
-
-            return do_shortcode('[mphb_availability class="'.$class.'" id="'.$ids.'"]');
+            return self::get_booking_form($this->props);
 
         }
 

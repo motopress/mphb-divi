@@ -8,7 +8,7 @@ if(!class_exists('MPHB_Divi_Rates_Module') && class_exists('ET_Builder_Module'))
 
         function init(){
 
-            $this->name       = esc_html__( 'HB Accom. Rates', 'mphb-divi' );
+            $this->name = esc_html__( 'HB Accom. Rates', 'mphb-divi' );
 
         }
 
@@ -48,10 +48,7 @@ if(!class_exists('MPHB_Divi_Rates_Module') && class_exists('ET_Builder_Module'))
 
         function render($attrs, $content = null, $render_slug){
 
-            $class = $this->props['class'];
-            $ids = $this->props['id'];
-
-            return do_shortcode('[mphb_rates class="'.$class.'" id="'.$ids.'"]');
+            return self::get_rates($this->props);
 
         }
 

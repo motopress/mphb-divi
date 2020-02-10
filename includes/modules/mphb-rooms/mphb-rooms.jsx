@@ -9,33 +9,26 @@ class MPHB_Divi_Rooms_Module extends Component {
      * Module constructor
      * @param props
      */
-    constructor(props){
+    constructor(props) {
 
         super(props);
-
-        this.state = {
-            error: null,
-            html: 'rooms',
-            isLoaded: false
-        }
 
     }
 
     /**
      *
      */
-    componentDidMount(){
+    componentDidMount() {
 
-        this.setState({
-            isLoaded: true,
-            html: this.props.__rooms
-        });
+        setTimeout(() => this.initSlider(), 200);
 
     }
 
-    componentDidUpdate(){
+    componentDidUpdate(prevProps) {
 
-        this.initSlider();
+        if (prevProps.__rooms !== this.props.__rooms) {
+            setTimeout(() => this.initSlider(), 200);
+        }
 
     }
 
@@ -44,31 +37,23 @@ class MPHB_Divi_Rooms_Module extends Component {
      */
     render() {
 
-        const { error, html, isLoaded } = this.state;
-
-        if(error){
-            return(error);
-        }else if(!isLoaded) {
-            return (<div className="et-fb-loader-wrapper"><div className="et-fb-loader"></div></div>);
-        }else{
-            return (
-                <div dangerouslySetInnerHTML={{__html: html}}></div>
-            );
-        }
+        return (
+            <div dangerouslySetInnerHTML={{__html: this.props.__rooms}}></div>
+        );
 
     }
 
-    initSlider(){
+    initSlider() {
 
         const flexsliderGalleries = $('.mphb-flexslider-gallery-wrapper');
 
-        flexsliderGalleries.each( function( index, flexsliderGallery ) {
-            new window.MPHB.FlexsliderGallery( flexsliderGallery ).initSliders();
+        flexsliderGalleries.each(function (index, flexsliderGallery) {
+            new window.MPHB.FlexsliderGallery(flexsliderGallery).initSliders();
             $(flexsliderGallery).closest('.type-mphb_room_type').on('click', 'a, .button', function (e) {
                 e.preventDefault();
                 e.stopImmediatePropagation();
             });
-        } );
+        });
 
     }
 
