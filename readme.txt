@@ -1,7 +1,7 @@
 === Hotel Booking & Divi Integration ===
 Contributors: MotoPress
 Donate link: https://motopress.com/
-Tags: divi, divi builder, hotel booking, reservation, property rental, booking, hotel
+Tags: divi, divi builder, hotel booking, booking, reservation, hotel, property rental
 Requires at least: 4.0
 Tested up to: 5.3
 Stable tag: trunk
@@ -12,7 +12,7 @@ Integrates Divi theme with the MotoPress Hotel Booking plugin to modify content 
 
 == Description ==
 
-Are you building your WordPress property rental website with the renowned Divi theme? Do you plan on implementing a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description)?
+Are you building your WordPress hotel booking website with the renowned Divi theme? Do you plan on implementing a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description)?
 
 Then install this super lightweight utility to benefit from this duo! It removes customization limitations that appear when using Hotel Booking with Divi. This joint plugin is designed to help you tweak the styling and content generated with the Hotel Booking plugin via a familiar and user-friendly Divi Builder interface.
 
