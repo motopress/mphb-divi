@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Hotel Booking & Divi Integration\n"
-"POT-Creation-Date: 2019-05-23 12:36+0300\n"
+"POT-Creation-Date: 2020-02-10 16:49+0200\n"
 "PO-Revision-Date: 2017-02-10 17:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: mphb-divi.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
 
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:11
 msgid "HB Booking Form"
@@ -68,9 +69,9 @@ msgstr ""
 msgid "Custom CSS class for shortcode wrapper."
 msgstr ""
 
-#: includes/modules/mphb-booking-form/mphb-booking-form.php:95
-#: includes/modules/mphb-rates/mphb-rates.php:72
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:219
+#: includes/modules/mphb-booking-form/mphb-booking-form.php:87
+#: includes/modules/mphb-rates/mphb-rates.php:69
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:198
 msgid "Please insert accommodation id."
 msgstr ""
 
