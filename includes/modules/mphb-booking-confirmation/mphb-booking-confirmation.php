@@ -4,7 +4,7 @@ if(!class_exists('MPHB_Divi_Booking_Confirmation_Module') && class_exists('ET_Bu
     class MPHB_Divi_Booking_Confirmation_Module extends ET_Builder_Module{
 
         public $slug       = 'mphb-divi-booking-confirmation';
-        public $vb_support = 'on';
+        public $vb_support = 'off';
 
         function init(){
 
