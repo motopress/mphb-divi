@@ -146,28 +146,6 @@ if(!class_exists('MPHB_Divi_Search_Results_Module') && class_exists('ET_Builder_
                         '__search',
                     ),
                 ),
-                'book_button' => array(
-                    'label'           => esc_html__( 'Book Button', 'mphb-divi' ),
-                    'description'     => esc_html__( 'Whether to display "Book" button.', 'mphb-divi' ),
-                    'type'              => 'yes_no_button',
-                    'options'           => array(
-                        'on'  => esc_html__( 'Yes', 'mphb-divi' ),
-                        'off' => esc_html__( 'No', 'mphb-divi' ),
-                    ),
-                    'default_on_front'  => 'on',
-                    'computed_affects'   => array(
-                        '__search',
-                    ),
-                ),
-                'default_sorting' => array(
-                    'label'            => esc_html__( 'Sort by', 'mphb-divi' ),
-                    'description'      => esc_html__( 'order, price...', 'mphb-divi' ),
-                    'type'             => 'text',
-                    'default'          => '',
-                    'computed_affects' => array(
-                        '__search',
-                    ),
-                ),
                 'class' => array(
                     'label'           => esc_html__( 'Class', 'mphb-divi' ),
                     'description'     => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
