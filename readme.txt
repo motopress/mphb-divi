@@ -18,14 +18,25 @@ Then install this super lightweight utility to benefit from this duo! It removes
 
 [youtube https://www.youtube.com/watch?v=Tyiw91WJX5o]
 
-= Customization, Styles, Colors etc. =
+### Divi Builder Modules
+Just add and alter standard MotoPress Hotel Booking widgets like properties listing or the search availability form via Divi Builder modules. Configure all settings by ticking the buttons, without manual tinkering with shortcodes.
+
+* Availability Calendar module;
+* Booking Confirmation module;
+* Booking Form module;
+* Booking Checkout module;
+* Accommodation Rates module;
+* Accommodation Listing module;
+* Search Availability module;
+* Search Results module;
+* Accommodation Services module;
+* Single Accommodation module;
+
+### Customization, Styles, Colors etc.
 No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer.
 
-= Divi Builder Blocks =
-Just add and alter standard MotoPress Hotel Booking widgets like properties listing or the search availability form via Divi Builder blocks. Configure all settings by ticking the buttons, without manual tinkering with shortcodes.
-
-The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking shortcodes to the Divi Builder, while the system page shortcodes are left up to the theme styling.
-[Here is a detailed guide](https://motopress.com/blog/divi-theme-hotel-booking-wordpress/?utm_source=wp-org-divi-addon-page&utm_medium=text-link) on how to implement a reservation and property management system into the Divi theme.
+The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking modules to the Divi Builder, while the system page shortcodes are left up to the theme styling.
+Here is a detailed guide how to implement a [reservation and property management system into the Divi](https://motopress.com/blog/divi-theme-hotel-booking-wordpress/?utm_source=wp-org-divi-addon-page&utm_medium=text-link) theme.
 
 = Requirements =
 * Divi theme.
