@@ -2,8 +2,8 @@
 Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: divi, divi builder, hotel booking, booking, reservation, hotel, property rental
-Requires at least: 4.0
-Tested up to: 5.6
+Requires at least: 4.6
+Tested up to: 5.7
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +34,9 @@ The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking shor
 = Looking for fully functional hotel themes? =
 Check out our [Hotel Booking & Property Rental WordPress Themes](https://motopress.com/products/category/hotel-rental-wordpress-themes/?utm_source=wp-org&utm_medium=hotel-themes&utm_campaign=hotel-booking-divi-integration&utm_content=wordpress-hotel-themes) where the booking plugin is included for free.
 
+= Appointments & hourly bookings =
+Offer event and appointment reservations on your rental property site with our [WordPress Appointment Booking ](https://motopress.com/products/appointment-booking/?utm_source=wp_org_hb_divi_page&utm_medium=text_link&utm_campaign=appointment_plugin) plugin.
+
 == Installation ==
 1. Upload plugin to the /wp-content/plugins/ directory.
 2. Activate plugin through the 'Plugins' menu in WordPress.
@@ -47,6 +50,9 @@ Hotel Booking & Divi Integration plugin, Copyright (C) 2019, MotoPress https://m
 Hotel Booking & Divi Integration plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
+
+= 1.0.4, Jul 7 2021 =
+* Added Availability Calendar, Booking Confirmation, Checkout Form and Availability Search Results Divi modules.
 
 = 1.0.3, Feb 10 2020 =
 * Improved compatibility with Divi theme.

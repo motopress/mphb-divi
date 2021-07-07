@@ -34,7 +34,6 @@ class MPHB_Divi_Room_Module extends Component {
      * Module render in VB
      */
     render() {
-        console.log( this.props );
         return (
             <div dangerouslySetInnerHTML={{__html: this.props.__room}}></div>
         );
