@@ -8,7 +8,6 @@
 
 # production
 asset-manifest.json
-package-lock.json
 *.map
 
 # misc
