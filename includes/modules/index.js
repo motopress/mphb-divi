@@ -5,7 +5,6 @@ import Room from './mphb-single-accommodation/mphb-single-accommodation';
 import Services from './mphb-services/mphb-services';
 import Rates from './mphb-rates/mphb-rates';
 import BookingForm from './mphb-booking-form/mphb-booking-form';
-import BookingConfirmation from './mphb-booking-confirmation/mphb-booking-confirmation';
 
 export default [
     SearchAvailability,
@@ -13,6 +12,5 @@ export default [
     Room,
     Services,
     Rates,
-    BookingForm,
-    BookingConfirmation
+    BookingForm
 ];

@@ -20,18 +20,7 @@ if(!class_exists('MPHB_Divi_Booking_Confirmation_Module') && class_exists('ET_Bu
                     'description'      => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'             => 'text',
                     'default'          => '',
-                    'computed_affects' => array(
-                        '__booking',
-                    ),
                 ),
-                '__booking' => array(
-                    'type'                => 'computed',
-                    'computed_callback'   => array( 'MPHB_Divi_Booking_Confirmation_Module', 'get_booking_confirmation' ),
-                    'computed_depends_on' => array(
-                        'class',
-                    ),
-                )
-
             );
 
         }

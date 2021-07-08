@@ -12,26 +12,15 @@ if(!class_exists('MPHB_Divi_Checkout_Module') && class_exists('ET_Builder_Module
 
         }
 
-        function get_fields(){
+        function get_fields() {
 
             return array(
                 'class' => array(
                     'label'            => esc_html__( 'Class', 'mphb-divi' ),
                     'description'      => esc_html__( 'Custom CSS class for shortcode wrapper.', 'mphb-divi' ),
                     'type'             => 'text',
-                    'default'          => '',
-                    'computed_affects' => array(
-                        '__checkout',
-                    ),
+                    'default'          => ''
                 ),
-                '__checkout' => array(
-                    'type'                => 'computed',
-                    'computed_callback'   => array( 'MPHB_Divi_Checkout_Module', 'get_checkout' ),
-                    'computed_depends_on' => array(
-                        'class',
-                    ),
-                )
-
             );
 
         }
