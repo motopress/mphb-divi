@@ -11,13 +11,15 @@
  * Domain Path: /languages
  **/
 
-if( !function_exists( 'mphb_divi_init' ) ):
+if ( ! function_exists( 'mphb_divi_init' ) ) :
 
 	add_action( 'divi_extensions_init', 'mphb_divi_init' );
 
 	function mphb_divi_init() {
-		if ( !class_exists( 'MPHB_Divi' ) && class_exists( 'HotelBookingPlugin' ) ) {
-			require( plugin_dir_path( __FILE__ ) . 'plugin.php' );
+
+		if ( ! class_exists( 'MPHB_Divi' ) && class_exists( 'HotelBookingPlugin' ) ) {
+
+            require( plugin_dir_path( __FILE__ ) . 'includes/mphb.php' );
 		}
 	}
 
