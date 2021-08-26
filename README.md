@@ -1,4 +1,4 @@
-## Hotel Booking Divi Integration Addon
+# Hotel Booking Divi Integration Addon
 
 ![](https://img.shields.io/wordpress/plugin/v/mphb-divi)
 ![](https://img.shields.io/wordpress/plugin/wp-version/mphb-divi)
