@@ -33,32 +33,32 @@ function mphb_divi_customizer_css(){
         <?php
         if(20 !== $button_text_size):
         ?>
-            font-size: <?php echo $button_text_size;?>px;
+            font-size: <?php echo absint( $button_text_size ); ?>px;
         <?php	
         endif;
         if('#ffffff' !== $button_text_color):
         ?>
-            color: <?php echo $button_text_color;?>;
+            color: <?php echo esc_attr( $button_text_color ); ?>;
         <?php
          endif;
          if('rgba(0,0,0,0)' !== $button_bg_color):
          ?>
-            background: <?php echo $button_bg_color;?>;
+            background: <?php echo esc_attr( $button_bg_color ); ?>;
         <?php
         endif;
         if(2 !== $button_border_width):
         ?>
-            border-width: <?php echo $button_border_width;?>px !important;
+            border-width: <?php echo absint( $button_border_width ); ?>px !important;
         <?php
         endif;
         if('#ffffff' !== $button_border_color):
         ?>
-            border-color: <?php echo $button_border_color;?>;
+            border-color: <?php echo esc_attr( $button_border_color ); ?>;
         <?php
         endif;
         if(3 !== $button_border_radius):
         ?>
-            border-radius: <?php echo $button_border_radius;?>px;
+            border-radius: <?php echo absint( $button_border_radius ); ?>px;
         <?php
         endif;
         if($button_text_style !== ''):
@@ -68,12 +68,12 @@ function mphb_divi_customizer_css(){
         endif;
         if(0 !== $button_spacing):
         ?>
-            letter-spacing: <?php echo $button_spacing;?>px;
+            letter-spacing: <?php echo intval( $button_spacing ); ?>px;
         <?php
         endif;
         if(et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ) != 'none'):
         ?>
-            font-family: <?php echo sanitize_text_field(et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ));?>, sans-serif;
+            font-family: <?php echo esc_attr( et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ) );?>, sans-serif;
         <?php
         endif;
         ?>
@@ -90,27 +90,27 @@ function mphb_divi_customizer_css(){
         <?php
         if('#ffffff' !== $button_text_color_hover):
         ?>
-            color: <?php echo $button_text_color_hover;?> !important;
+            color: <?php echo esc_attr( $button_text_color_hover ); ?> !important;
         <?php
         endif;
         if('rgba(255,255,255,0.2)' !== $button_bg_color_hover):
         ?>
-            background: <?php echo $button_bg_color_hover;?> !important;
+            background: <?php echo esc_attr( $button_bg_color_hover ); ?> !important;
         <?php
         endif;
         if('rgba(0,0,0,0)' !== $button_border_color_hover):
         ?>
-            border-color: <?php echo $button_border_color_hover;?> !important;
+            border-color: <?php echo esc_attr( $button_border_color_hover ); ?> !important;
         <?php
         endif;
         if(3 !== $button_border_radius_hover):
         ?>
-            border-radius: <?php echo $button_border_radius_hover;?>px !important;
+            border-radius: <?php echo absint( $button_border_radius_hover ); ?>px !important;
         <?php
         endif;
         if(0 !== $button_spacing_hover):
         ?>
-            letter-spacing: <?php echo $button_spacing_hover;?>px !important;
+            letter-spacing: <?php echo intval( $button_spacing_hover ); ?>px !important;
         <?php
         endif;
         ?>
