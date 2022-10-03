@@ -1,17 +1,17 @@
-# Copyright (C) 2021 MotoPress
-# This file is distributed under the same license as the Hotel Booking & Divi Integration plugin.
+# Copyright (C) 2022 MotoPress
+# This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Hotel Booking & Divi Integration 1.0.6\n"
+"Project-Id-Version: Hotel Booking & Divi Integration 1.0.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mphb-divi\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-11-22T23:02:26+00:00\n"
+"POT-Creation-Date: 2022-10-03T13:34:31+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.4.0\n"
+"X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: mphb-divi\n"
 
 #. Plugin Name of the plugin
@@ -60,6 +60,88 @@ msgid "How many months to show."
 msgstr ""
 
 #: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:41
+msgid "Display prices"
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:42
+msgid "Display price per night in the availability calendar."
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:45
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:58
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:71
+#: includes/modules/mphb-rooms/mphb-rooms.php:23
+#: includes/modules/mphb-rooms/mphb-rooms.php:36
+#: includes/modules/mphb-rooms/mphb-rooms.php:49
+#: includes/modules/mphb-rooms/mphb-rooms.php:62
+#: includes/modules/mphb-rooms/mphb-rooms.php:75
+#: includes/modules/mphb-rooms/mphb-rooms.php:88
+#: includes/modules/mphb-rooms/mphb-rooms.php:101
+#: includes/modules/mphb-rooms/mphb-rooms.php:114
+#: includes/modules/mphb-search-results/mphb-search-results.php:23
+#: includes/modules/mphb-search-results/mphb-search-results.php:36
+#: includes/modules/mphb-search-results/mphb-search-results.php:49
+#: includes/modules/mphb-search-results/mphb-search-results.php:62
+#: includes/modules/mphb-search-results/mphb-search-results.php:75
+#: includes/modules/mphb-search-results/mphb-search-results.php:88
+#: includes/modules/mphb-search-results/mphb-search-results.php:101
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:32
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:45
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:58
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:71
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:84
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:97
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:110
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:123
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:46
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:59
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:72
+#: includes/modules/mphb-rooms/mphb-rooms.php:24
+#: includes/modules/mphb-rooms/mphb-rooms.php:37
+#: includes/modules/mphb-rooms/mphb-rooms.php:50
+#: includes/modules/mphb-rooms/mphb-rooms.php:63
+#: includes/modules/mphb-rooms/mphb-rooms.php:76
+#: includes/modules/mphb-rooms/mphb-rooms.php:89
+#: includes/modules/mphb-rooms/mphb-rooms.php:102
+#: includes/modules/mphb-rooms/mphb-rooms.php:115
+#: includes/modules/mphb-search-results/mphb-search-results.php:24
+#: includes/modules/mphb-search-results/mphb-search-results.php:37
+#: includes/modules/mphb-search-results/mphb-search-results.php:50
+#: includes/modules/mphb-search-results/mphb-search-results.php:63
+#: includes/modules/mphb-search-results/mphb-search-results.php:76
+#: includes/modules/mphb-search-results/mphb-search-results.php:89
+#: includes/modules/mphb-search-results/mphb-search-results.php:102
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:33
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:46
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:59
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:72
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:85
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:98
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:111
+#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:124
+msgid "No"
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:54
+msgid "Truncate prices"
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:55
+msgid "Truncate prices in the availability calendar."
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:67
+msgid "Display currency"
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:68
+msgid "Display currency in the availability calendar."
+msgstr ""
+
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:80
 #: includes/modules/mphb-booking-confirmation/mphb-booking-confirmation.php:19
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:40
 #: includes/modules/mphb-checkout/mphb-checkout.php:19
@@ -72,7 +154,7 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
-#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:42
+#: includes/modules/mphb-availability-calendar/mphb-availability-calendar.php:81
 #: includes/modules/mphb-booking-confirmation/mphb-booking-confirmation.php:20
 #: includes/modules/mphb-booking-form/mphb-booking-form.php:41
 #: includes/modules/mphb-checkout/mphb-checkout.php:20
@@ -129,58 +211,6 @@ msgstr ""
 #: includes/modules/mphb-search-results/mphb-search-results.php:20
 #: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:29
 msgid "Whether to display title of the accommodation type."
-msgstr ""
-
-#: includes/modules/mphb-rooms/mphb-rooms.php:23
-#: includes/modules/mphb-rooms/mphb-rooms.php:36
-#: includes/modules/mphb-rooms/mphb-rooms.php:49
-#: includes/modules/mphb-rooms/mphb-rooms.php:62
-#: includes/modules/mphb-rooms/mphb-rooms.php:75
-#: includes/modules/mphb-rooms/mphb-rooms.php:88
-#: includes/modules/mphb-rooms/mphb-rooms.php:101
-#: includes/modules/mphb-rooms/mphb-rooms.php:114
-#: includes/modules/mphb-search-results/mphb-search-results.php:23
-#: includes/modules/mphb-search-results/mphb-search-results.php:36
-#: includes/modules/mphb-search-results/mphb-search-results.php:49
-#: includes/modules/mphb-search-results/mphb-search-results.php:62
-#: includes/modules/mphb-search-results/mphb-search-results.php:75
-#: includes/modules/mphb-search-results/mphb-search-results.php:88
-#: includes/modules/mphb-search-results/mphb-search-results.php:101
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:32
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:45
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:58
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:71
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:84
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:97
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:110
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:123
-msgid "Yes"
-msgstr ""
-
-#: includes/modules/mphb-rooms/mphb-rooms.php:24
-#: includes/modules/mphb-rooms/mphb-rooms.php:37
-#: includes/modules/mphb-rooms/mphb-rooms.php:50
-#: includes/modules/mphb-rooms/mphb-rooms.php:63
-#: includes/modules/mphb-rooms/mphb-rooms.php:76
-#: includes/modules/mphb-rooms/mphb-rooms.php:89
-#: includes/modules/mphb-rooms/mphb-rooms.php:102
-#: includes/modules/mphb-rooms/mphb-rooms.php:115
-#: includes/modules/mphb-search-results/mphb-search-results.php:24
-#: includes/modules/mphb-search-results/mphb-search-results.php:37
-#: includes/modules/mphb-search-results/mphb-search-results.php:50
-#: includes/modules/mphb-search-results/mphb-search-results.php:63
-#: includes/modules/mphb-search-results/mphb-search-results.php:76
-#: includes/modules/mphb-search-results/mphb-search-results.php:89
-#: includes/modules/mphb-search-results/mphb-search-results.php:102
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:33
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:46
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:59
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:72
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:85
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:98
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:111
-#: includes/modules/mphb-single-accommodation/mphb-single-accommodation.php:124
-msgid "No"
 msgstr ""
 
 #: includes/modules/mphb-rooms/mphb-rooms.php:32
