@@ -39,7 +39,7 @@ if ( ! class_exists( 'MPHB_Divi_Availability_Calendar_Module' ) && class_exists(
 				),
 				'display_price'    => array(
 					'label'            => esc_html__( 'Display prices', 'mphb-divi' ),
-					'description'      => esc_html__( 'Display price per night in the availability calendar.', 'mphb-divi' ),
+					'description'      => esc_html__( 'Display per-night prices in the availability calendar.', 'mphb-divi' ),
 					'type'             => 'yes_no_button',
 					'options'          => array(
 						'on'  => esc_html__( 'Yes', 'mphb-divi' ),
@@ -52,7 +52,7 @@ if ( ! class_exists( 'MPHB_Divi_Availability_Calendar_Module' ) && class_exists(
 				),
 				'truncate_price'   => array(
 					'label'            => esc_html__( 'Truncate prices', 'mphb-divi' ),
-					'description'      => esc_html__( 'Truncate prices in the availability calendar.', 'mphb-divi' ),
+					'description'      => esc_html__( 'Truncate per-night prices in the availability calendar.', 'mphb-divi' ),
 					'type'             => 'yes_no_button',
 					'options'          => array(
 						'on'  => esc_html__( 'Yes', 'mphb-divi' ),
@@ -65,7 +65,7 @@ if ( ! class_exists( 'MPHB_Divi_Availability_Calendar_Module' ) && class_exists(
 				),
 				'display_currency' => array(
 					'label'            => esc_html__( 'Display currency', 'mphb-divi' ),
-					'description'      => esc_html__( 'Display currency in the availability calendar.', 'mphb-divi' ),
+					'description'      => esc_html__( 'Display the currency sign in the availability calendar.', 'mphb-divi' ),
 					'type'             => 'yes_no_button',
 					'options'          => array(
 						'on'  => esc_html__( 'Yes', 'mphb-divi' ),
