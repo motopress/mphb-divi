@@ -63,7 +63,7 @@ Hotel Booking & Divi Integration plugin is distributed under the terms of the GN
 == Changelog ==
 
 = 1.0.7, Oct 7 2022 =
-* Added support for the price conversion in the availability calendar.
+* Added display prices in the availability calendar.
 
 = 1.0.6, Nov 23 2021 =
 * Security - sanitization and escaping.
