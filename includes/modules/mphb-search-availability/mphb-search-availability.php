@@ -43,7 +43,7 @@ if(!class_exists('MPHB_Divi_Search_Availability_Module') && class_exists('ET_Bui
                 ),
                 'children' => array(
                     'label'           => esc_html__( 'Children', 'mphb-divi' ),
-                    'type'            => 'input',
+                    'type'            => 'text',
                     'default'           => '',
                     'description'     => esc_html__( 'The number of children presetted in the search form.', 'mphb-divi' ),
                     'computed_affects'   => array(
