@@ -1,18 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class MPHB_Divi_Rates_Module extends Component {
 
     static slug = 'mphb-divi-rates';
-
-    /**
-     * Module constructor
-     * @param props
-     */
-    constructor(props) {
-
-        super(props);
-
-    }
 
     /**
      * Module render in VB

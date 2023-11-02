@@ -34,7 +34,7 @@ function mphb_divi_customizer_css(){
         if(20 !== $button_text_size):
         ?>
             font-size: <?php echo absint( $button_text_size ); ?>px;
-        <?php	
+        <?php
         endif;
         if('#ffffff' !== $button_text_color):
         ?>
