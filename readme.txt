@@ -3,8 +3,8 @@ Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: divi, divi builder, hotel booking, booking, reservation, hotel, property rental
 Requires at least: 4.6
-Tested up to: 6.2
-Stable tag: 1.0.7
+Tested up to: 6.3
+Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,9 @@ Hotel Booking & Divi Integration plugin, Copyright (C) 2019, MotoPress https://m
 Hotel Booking & Divi Integration plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
+
+= 1.0.8, Nov 3 2023 =
+* Improved compatibility with Divi Builder.
 
 = 1.0.7, Oct 7 2022 =
 * Added support for displaying prices in the availability calendars.
