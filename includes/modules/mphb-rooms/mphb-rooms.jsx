@@ -1,19 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import $ from 'jquery';
 
 class MPHB_Divi_Rooms_Module extends Component {
 
     static slug = 'mphb-divi-accommodations';
-
-    /**
-     * Module constructor
-     * @param props
-     */
-    constructor(props) {
-
-        super(props);
-
-    }
 
     /**
      *

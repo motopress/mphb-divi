@@ -4,7 +4,7 @@ if ( ! class_exists( 'MPHB_Divi_Availability_Calendar_Module' ) && class_exists(
 	class MPHB_Divi_Availability_Calendar_Module extends ET_Builder_Module {
 
 		public $slug       = 'mphb-divi-availability-calendar';
-		public $vb_support = 'off';
+		public $vb_support = 'on';
 
 		function init() {
 
@@ -102,7 +102,7 @@ if ( ! class_exists( 'MPHB_Divi_Availability_Calendar_Module' ) && class_exists(
 
 		}
 
-		function render( $attrs, $content = null, $render_slug ) {
+		function render( $attrs, $content, $render_slug ) {
 			return self::get_availability_calendar( $this->props );
 		}
 

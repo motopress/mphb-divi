@@ -1,18 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class MPHB_Divi_Booking_Form_Module extends Component {
 
     static slug = 'mphb-divi-booking-form';
-
-    /**
-     * Module constructor
-     * @param props
-     */
-    constructor(props) {
-
-        super(props);
-
-    }
 
     /**
      * Module render in VB

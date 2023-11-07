@@ -34,7 +34,7 @@ function mphb_divi_customizer_css(){
         if(20 !== $button_text_size):
         ?>
             font-size: <?php echo absint( $button_text_size ); ?>px;
-        <?php	
+        <?php
         endif;
         if('#ffffff' !== $button_text_color):
         ?>
@@ -71,7 +71,7 @@ function mphb_divi_customizer_css(){
             letter-spacing: <?php echo intval( $button_spacing ); ?>px;
         <?php
         endif;
-        if(et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ) != 'none'):
+        if(function_exists('et_pb_get_specific_default_font') && et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ) != 'none'):
         ?>
             font-family: <?php echo esc_attr( et_pb_get_specific_default_font( et_get_option( 'all_buttons_font', 'none' ) ) );?>, sans-serif;
         <?php
