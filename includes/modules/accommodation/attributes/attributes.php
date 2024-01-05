@@ -76,8 +76,8 @@ class MPHB_Divi_Accommodation_Type_Attributes_Module extends MPHB_Divi_Abstract_
     }
 
     private static function apply_attributes_params() {
-        add_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'removeAttributesTitle' ), 0 );
-        add_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'filterAttributes' ) );
+        add_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'remove_attributes_title' ), 0 );
+        add_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'filter_attributes' ) );
 
         global $mphbAttributes;
         self::$custom_attributes = $mphbAttributes;
@@ -98,13 +98,13 @@ class MPHB_Divi_Accommodation_Type_Attributes_Module extends MPHB_Divi_Abstract_
         $mphbAttributes = self::$custom_attributes;
     }
 
-    public static function removeAttributesTitle() {
+    public static function remove_attributes_title() {
         $titlePriority = has_action( 'mphb_render_single_room_type_before_attributes', array( '\MPHB\Views\SingleRoomTypeView', '_renderAttributesTitle' ) );
         remove_action( 'mphb_render_single_room_type_before_attributes', array( '\MPHB\Views\SingleRoomTypeView', '_renderAttributesTitle' ), $titlePriority );
-        remove_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'removeAttributesTitle' ), 0 );
+        remove_action( 'mphb_render_single_room_type_before_attributes', array( self::class, 'remove_attributes_title' ), 0 );
     }
 
-    public static function filterAttributes() {
+    public static function filter_attributes() {
         foreach ( self::$setting_to_action as $setting => $actions ) {
             if ( self::should_hide_attr( $setting ) ) {
                 foreach ( $actions as $action ) {
