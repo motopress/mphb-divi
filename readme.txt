@@ -3,8 +3,8 @@ Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: divi, divi builder, hotel booking, booking, reservation, hotel, property rental
 Requires at least: 4.6
-Tested up to: 6.3
-Stable tag: 1.0.8
+Tested up to: 6.4
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,13 @@ Just add and alter standard MotoPress Hotel Booking widgets like properties list
 * Search Results module;
 * Accommodation Services module;
 * Single Accommodation module;
+* Accommodation Type Title module;
+* Accommodation Type Featured module;
+* Accommodation Type Gallery module;
+* Accommodation Type Price module;
+* Accommodation Type Content module;
+* Accommodation Type Attributes module;
+* Accommodation Type Attribute module;
 
 ### Customization, Styles, Colors etc.
 No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer.
@@ -61,6 +68,15 @@ Hotel Booking & Divi Integration plugin, Copyright (C) 2019, MotoPress https://m
 Hotel Booking & Divi Integration plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
+
+= 1.1.0, Jan 8 2024 =
+* Added Accommodation Type Title module.
+* Added Accommodation Type Featured Image module.
+* Added Accommodation Type Gallery module.
+* Added Accommodation Type Price module.
+* Added Accommodation Type Content module.
+* Added Accommodation Type Attributes module.
+* Added Accommodation Type Attribute module.
 
 = 1.0.8, Nov 3 2023 =
 * Improved compatibility with Divi Builder.
