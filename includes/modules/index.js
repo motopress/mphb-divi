@@ -10,6 +10,14 @@ import BookingConfirmation from './mphb-booking-confirmation/mphb-booking-confir
 import Checkout from './mphb-checkout/mphb-checkout';
 import SearchResults from './mphb-search-results/mphb-search-results';
 
+import AccommodationTitle from './accommodation/title/title';
+import AccommodationPrice from './accommodation/price/price';
+import AccommodationGallery from './accommodation/gallery/gallery';
+import AccommodationFeaturedImage from './accommodation/featured-image/featured-image';
+import AccommodationContent from './accommodation/content/content';
+import AccommodationAttributes from './accommodation/attributes/attributes';
+import AccommodationAttribute from './accommodation/attribute/attribute';
+
 export default [
     SearchAvailability,
     Rooms,
@@ -20,5 +28,12 @@ export default [
     AvailabilityCalendar,
     BookingConfirmation,
     Checkout,
-    SearchResults
+    SearchResults,
+    AccommodationTitle,
+    AccommodationPrice,
+    AccommodationGallery,
+    AccommodationFeaturedImage,
+    AccommodationContent,
+    AccommodationAttributes,
+    AccommodationAttribute,
 ];
