@@ -12,14 +12,19 @@ Integrates Divi theme with the MotoPress Hotel Booking plugin to modify content 
 
 == Description ==
 
-Are you building your WordPress hotel booking website with the renowned Divi theme? Do you plan on implementing a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description)?
+Implement a scalable property management & booking system with the expert MotoPress [WordPress Hotel Booking plugin](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description).
 
-Then install this super lightweight utility to benefit from this duo! It removes customization limitations that appear when using Hotel Booking with Divi. This joint plugin is designed to help you tweak the styling and content generated with the Hotel Booking plugin via a familiar and user-friendly Divi Builder interface.
+* [Hotel Booking Plugin Demo](https://hbdemo.getmotopress.com/) with the Dashboard access.
+* [Video Overview](https://www.youtube.com/watch?v=Tyiw91WJX5o).
+* [30+ Video Guides](https://www.youtube.com/playlist?list=PLbDImkyrISyKQccIsVDp98UXLIc1Yc3mn).
+
+This joint Divi booking plugin is designed to help you tweak the styling and content generated with the Hotel Booking plugin via a familiar and user-friendly Divi Builder interface.
 
 [youtube https://www.youtube.com/watch?v=Tyiw91WJX5o]
 
-### Divi Builder Modules
-Just add and alter standard MotoPress Hotel Booking widgets like properties listing or the search availability form via Divi Builder modules. Configure all settings by ticking the buttons, without manual tinkering with shortcodes.
+### 17 Divi Modules for Booking Forms & Property Listings
+
+Use a powerful suite of Divi modules to add a step-by-step mobile-friendly hotel booking form, showcase hotel rooms, extra services, availability calendars, property rates, and more informative widgets for your hotel.
 
 * Availability Calendar module;
 * Booking Confirmation module;
@@ -32,32 +37,61 @@ Just add and alter standard MotoPress Hotel Booking widgets like properties list
 * Accommodation Services module;
 * Single Accommodation module;
 * Accommodation Type Title module;
-* Accommodation Type Featured module;
+* Accommodation Type Featured Image module;
 * Accommodation Type Gallery module;
 * Accommodation Type Price module;
 * Accommodation Type Content module;
 * Accommodation Type Attributes module;
 * Accommodation Type Attribute module;
 
-### Customization, Styles, Colors etc.
-No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer.
+### Hotel Booking Form Module
 
-The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking modules to the Divi Builder, while the system page shortcodes are left up to the theme styling.
+Craft custom hotel search forms with ease, tailored to your specific needs with a single Divi module. Add extra fields, customize the size, colors, typography and other settings to build a stylish hotel booking form. Make your form vertical or horizontal in clicks!
+
+### Room Availability Calendar Module
+
+Use a dedicated Divi module to place an individual availability calendar to any page, display available and blocked dates, per-night cost or rates, and seamlessly enable direct bookings from the calendar.
+
+### 7 Modules for Single Property Presentation
+
+This add-on comes with a suite of modules designed to beautifully showcase individual listings, where you can add, delete or move elements used to build your listing! Include dedicated widgets for images, pricing, descriptions, book buttons, rates and more.
+
+
+### Customization, Styles, Colors etc.
+
+No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer. The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking modules to the Divi Builder, while the system page shortcodes are left up to the theme styling.
+
 Here is a detailed guide how to implement a [reservation and property management system into the Divi](https://motopress.com/blog/divi-theme-hotel-booking-wordpress/?utm_source=wp-org-divi-addon-page&utm_medium=text-link) theme.
 
-= Requirements =
+### Requirements
 * Divi theme.
-* [MotoPress Hotel Booking Lite](https://wordpress.org/plugins/motopress-hotel-booking-lite/) or MotoPress Hotel Booking Pro ([Comparison Table](https://motopress.com/motopress-wordpress-hotel-booking-pro-vs-lite/?utm_source=divi-hb-integration&utm_medium=link-in-description)).
+* [MotoPress Hotel Booking Lite](https://wordpress.org/plugins/motopress-hotel-booking-lite/) or [MotoPress Hotel Booking Pro](https://motopress.com/products/hotel-booking/?utm_source=divi-hb-integration&utm_medium=pro-link-in-description) ([Comparison Table](https://motopress.com/motopress-wordpress-hotel-booking-pro-vs-lite/?utm_source=divi-hb-integration&utm_medium=link-in-description)).
 
-= Looking for fully functional hotel themes? =
+### Fully functional hotel themes
+
 Check out our [Hotel Booking & Property Rental WordPress Themes](https://motopress.com/products/category/hotel-rental-wordpress-themes/?utm_source=wp-org&utm_medium=hotel-themes&utm_campaign=hotel-booking-divi-integration&utm_content=wordpress-hotel-themes) where the booking plugin is included for free.
 
-= Appointments & hourly bookings =
+### Appointments & hourly bookings
+
 Offer event and appointment reservations on your rental property site with our [WordPress Appointment Booking ](https://motopress.com/products/appointment-booking/?utm_source=wp_org_hb_divi_page&utm_medium=text_link&utm_campaign=appointment_plugin) plugin.
 
 == Installation ==
 1. Upload plugin to the /wp-content/plugins/ directory.
 2. Activate plugin through the 'Plugins' menu in WordPress.
+
+== Frequently Asked Questions ==
+
+How to use the Divi booking plugin?
+
+To add a Divi booking system with MotoPress Hotel Booking, you need to do the following:
+
+1. Download and install Divi Page Builder.
+2. Download and install MotoPress Hotel Booking Lite or MotoPress Hotel Booking Pro.
+3. Download and install MotoPress Hotel Booking Divi Integration add-on.
+4. Add properties and configure settings via the MotoPress Hotel Booking plugin.
+5. Open Divi on your website.
+6. Find the MotoPress Hotel Booking modules.
+7. Drag and drop the needed module to the page and set your preferences via Divi.
 
 == Screenshots ==
 1. search availability form
