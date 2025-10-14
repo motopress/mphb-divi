@@ -1,9 +1,9 @@
-=== MotoPress Hotel Booking & Divi Integration ===
+=== MotoPress Hotel Booking for Divi ===
 Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: divi, divi builder, hotel booking, booking, reservation, hotel, property rental
 Requires at least: 4.6
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -98,8 +98,8 @@ To add a Divi booking system with MotoPress Hotel Booking, you need to do the fo
 2. accommodations
 
 == Copyright ==
-MotoPress Hotel Booking & Divi Integration plugin, Copyright (C) 2019, MotoPress https://motopress.com/
-MotoPress Hotel Booking & Divi Integration plugin is distributed under the terms of the GNU GPL.
+MotoPress Hotel Booking for Divi plugin, Copyright (C) 2019, MotoPress https://motopress.com/
+MotoPress Hotel Booking for Divi plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
