@@ -1,0 +1,330 @@
+{
+	"name": "mphb-divi/single-accommodation",
+	"d4Shortcode": "mphb-divi-single-accommodation",
+	"title": "HB Single Accom.",
+	"titles": "HB Single Accom.",
+	"category": "module",
+	"moduleClassName": "mphb-divi-single-accommodation",
+	"moduleOrderClassName": "mphb-divi-single-accommodation",
+	"attributes": {
+		"module": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"settings": {
+				"decoration": {
+					"animation": {},
+					"background": {},
+					"bodyFont": {},
+					"border": {},
+					"boxShadow": {},
+					"button": {},
+					"disabledOn": {},
+					"filters": {},
+					"interactions": {},
+					"font": {},
+					"icon": {},
+					"headingFont": {},
+					"overflow": {},
+					"order": {},
+					"position": {},
+					"scroll": {},
+					"sizing": {},
+					"spacing": {},
+					"sticky": {},
+					"transform": {},
+					"transition": {},
+					"zIndex": {}
+				}
+			}
+		},
+		"shortcode": {
+			"type": "object",
+			"settings": {
+				"advanced": {
+					"id": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 10,
+							"render": true,
+							"label": "Accommodation Type",
+							"description": "Select the accommodation type to display.",
+							"category": "basic_option",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/select",
+								"type": "field"
+							}
+						}
+					},
+					"title": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 20,
+							"render": true,
+							"label": "Title",
+							"description": "Whether to display title of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"featured_image": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 30,
+							"render": true,
+							"label": "Featured image",
+							"description": "Whether to display featured image of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"gallery": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 40,
+							"render": true,
+							"label": "Gallery",
+							"description": "Whether to display gallery of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"excerpt": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 50,
+							"render": true,
+							"label": "Excerpt",
+							"description": "Whether to display excerpt of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"details": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 60,
+							"render": true,
+							"label": "Details",
+							"description": "Whether to display details of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"price": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 70,
+							"render": true,
+							"label": "Price",
+							"description": "Whether to display price of the accommodation type.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"view_button": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 80,
+							"render": true,
+							"label": "View Button",
+							"description": "Whether to display the View Details button.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"book_button": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 90,
+							"render": true,
+							"label": "Book Button",
+							"description": "Whether to display the Book button.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							}
+						}
+					},
+					"class": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 100,
+							"render": true,
+							"label": "Class",
+							"description": "Custom CSS class for shortcode wrapper.",
+							"category": "configuration",
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							},
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							}
+						}
+					}
+				}
+			},
+			"default": {
+				"advanced": {
+					"id": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"title": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"featured_image": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"gallery": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"excerpt": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"details": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"price": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"view_button": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"book_button": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"class": {
+						"desktop": {
+							"value": ""
+						}
+					}
+				}
+			}
+		}
+	},
+	"settings": {
+		"design": "auto",
+		"advanced": "auto",
+		"groups": {
+			"contentOptions": {
+				"panel": "content",
+				"priority": 10,
+				"multiElements": true,
+				"groupName": "options",
+				"component": {
+					"name": "divi/composite",
+					"props": {
+						"groupLabel": "Options"
+					}
+				}
+			}
+		}
+	}
+}

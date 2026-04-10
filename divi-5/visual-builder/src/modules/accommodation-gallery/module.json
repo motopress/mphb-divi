@@ -1,0 +1,249 @@
+{
+	"name": "mphb-divi/accommodation-gallery",
+	"d4Shortcode": "mphb-divi-accommodation-type-gallery",
+	"title": "HB Acc. Type Gallery",
+	"titles": "HB Acc. Type Gallery",
+	"category": "module",
+	"moduleClassName": "mphb-divi-accommodation-type-gallery",
+	"moduleOrderClassName": "mphb-divi-accommodation-type-gallery",
+	"attributes": {
+		"module": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"default": {
+				"meta": {
+					"adminLabel": {
+						"desktop": {
+							"value": "HB Acc. Type Gallery"
+						}
+					}
+				}
+			},
+			"settings": {
+				"meta": {
+					"adminLabel": {}
+				},
+				"decoration": {
+					"background": {},
+					"spacing": {},
+					"border": {},
+					"boxShadow": {},
+					"filters": {},
+					"transform": {},
+					"animation": {},
+					"overflow": {},
+					"disabledOn": {},
+					"position": {},
+					"zIndex": {}
+				}
+			}
+		},
+		"shortcode": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"settings": {
+				"advanced": {
+					"accommodation_id": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 10,
+							"render": true,
+							"label": "Accommodation Type",
+							"description": "Select the accommodation type to display.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/select",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"image_size": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 20,
+							"render": true,
+							"label": "Image size",
+							"description": "Select the image size to display.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/select",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"is_slider": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 30,
+							"render": true,
+							"label": "Display as slider",
+							"description": "Display the gallery as a slider on the frontend.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"columns": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 40,
+							"render": true,
+							"label": "Columns",
+							"description": "Number of gallery columns.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/range",
+								"type": "field",
+								"props": {
+									"minLimit": 1,
+									"maxLimit": 9,
+									"defaultValue": "4",
+									"allowedUnits": [],
+									"defaultUnit": ""
+								}
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"link_to": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 50,
+							"render": true,
+							"label": "Link to",
+							"description": "Choose how gallery items should link.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/select",
+								"type": "field",
+								"props": {
+									"defaultValue": "",
+									"options": {
+										"": {
+											"label": "Default"
+										},
+										"none": {
+											"label": "None"
+										},
+										"file": {
+											"label": "File"
+										}
+									}
+								}
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"is_lightbox": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 60,
+							"render": true,
+							"label": "Open in lightbox",
+							"description": "Open gallery images in a lightbox.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					}
+				}
+			},
+			"default": {
+				"advanced": {
+					"accommodation_id": {
+						"desktop": {
+							"value": "current"
+						}
+					},
+					"image_size": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"is_slider": {
+						"desktop": {
+							"value": "off"
+						}
+					},
+					"columns": {
+						"desktop": {
+							"value": "4"
+						}
+					},
+					"link_to": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"is_lightbox": {
+						"desktop": {
+							"value": "off"
+						}
+					}
+				}
+			}
+		}
+	},
+	"settings": {
+		"design": "auto",
+		"advanced": "auto",
+		"groups": {
+			"contentOptions": {
+				"panel": "content",
+				"priority": 10,
+				"multiElements": true,
+				"groupName": "options",
+				"component": {
+					"name": "divi/composite",
+					"props": {
+						"groupLabel": "Options"
+					}
+				}
+			}
+		}
+	}
+}

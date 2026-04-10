@@ -1,0 +1,269 @@
+{
+	"name": "mphb-divi/search-availability",
+	"d4Shortcode": "mphb-divi-availability-search",
+	"title": "HB Search Availability",
+	"titles": "HB Search Availability",
+	"category": "module",
+	"moduleClassName": "mphb-divi-availability-search",
+	"moduleOrderClassName": "mphb-divi-availability-search",
+	"attributes": {
+		"module": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"default": {
+				"meta": {
+					"adminLabel": {
+						"desktop": {
+							"value": "HB Search Availability"
+						}
+					}
+				}
+			},
+			"settings": {
+				"meta": {
+					"adminLabel": {}
+				},
+				"decoration": {
+					"background": {},
+					"spacing": {},
+					"border": {},
+					"boxShadow": {},
+					"filters": {},
+					"transform": {},
+					"animation": {},
+					"overflow": {},
+					"disabledOn": {},
+					"position": {},
+					"zIndex": {}
+				}
+			}
+		},
+		"shortcode": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"settings": {
+				"advanced": {
+					"check_in_date": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 10,
+							"render": true,
+							"label": "Check-in date",
+							"description": "Check-in date presetted in the search form. Format: d/m/Y.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"check_out_date": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 20,
+							"render": true,
+							"label": "Check-out date",
+							"description": "Check-out date presetted in the search form. Format: d/m/Y.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"adults": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 30,
+							"render": true,
+							"label": "Adults",
+							"description": "The number of adults presetted in the search form.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"children": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 40,
+							"render": true,
+							"label": "Children",
+							"description": "The number of children presetted in the search form.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"attributes": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 50,
+							"render": true,
+							"label": "Attributes",
+							"description": "Comma-separated list of attributes.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/textarea",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"form_style": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 60,
+							"render": true,
+							"label": "Style",
+							"description": "Choose the search form layout style.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/select",
+								"type": "field",
+								"props": {
+									"defaultValue": "default",
+									"options": {
+										"default": {
+											"label": "Default"
+										},
+										"horizontal-center": {
+											"label": "Horizontal Center"
+										},
+										"horizontal-left": {
+											"label": "Horizontal Left"
+										}
+									}
+								}
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"class": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 70,
+							"render": true,
+							"label": "Class",
+							"description": "Custom CSS class for shortcode wrapper.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					}
+				}
+			},
+			"default": {
+				"advanced": {
+					"check_in_date": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"check_out_date": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"adults": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"children": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"attributes": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"form_style": {
+						"desktop": {
+							"value": "default"
+						}
+					},
+					"class": {
+						"desktop": {
+							"value": ""
+						}
+					}
+				}
+			}
+		}
+	},
+	"settings": {
+		"content": "auto",
+		"design": "auto",
+		"advanced": "auto",
+		"groups": {
+			"contentOptions": {
+				"panel": "content",
+				"priority": 10,
+				"multiElements": true,
+				"groupName": "options",
+				"component": {
+					"name": "divi/composite",
+					"props": {
+						"groupLabel": "Options"
+					}
+				}
+			}
+		}
+	}
+}
