@@ -14,6 +14,26 @@ const conversionOutline = {
 		margin_padding: 'module.decoration.spacing',
 		max_width: 'module.decoration.sizing',
 		height: 'module.decoration.sizing',
+		link_options: 'module.advanced.link',
+		fonts: {
+			module: 'module.decoration.font',
+		},
+		filters: {
+			default: 'module.decoration.filters',
+		},
+		box_shadow: {
+			default: 'module.decoration.boxShadow',
+		},
+		borders: {
+			default: 'module.decoration.border',
+		},
+		display_conditions: 'module.decoration.conditions',
+	},
+	css: {
+		after: 'css.*.after',
+		before: 'css.*.before',
+		main_element: 'css.*.mainElement',
+		free_form: 'css.*.freeForm',
 	},
 	module: {
 		accommodation_id: 'shortcode.advanced.accommodation_id.desktop.value',

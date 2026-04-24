@@ -11,13 +11,26 @@ const diviModuleLibrary = diviPackages.moduleLibrary
 const addAction = wpHooks.addAction;
 const ModuleContainer = diviModule.ModuleContainer;
 const StyleContainer = diviModule.StyleContainer;
+const CssStyle = diviModule.CssStyle;
 const registerModule = diviModuleLibrary.registerModule;
 
-const ModuleStyles = ( { elements, settings, mode, state, noStyleTag } ) => (
+const ModuleStyles = ( {
+	elements,
+	attrs,
+	mode,
+	state,
+	noStyleTag,
+	orderClass,
+} ) => (
 	<StyleContainer mode={ mode } state={ state } noStyleTag={ noStyleTag }>
 		{ elements.style( {
 			attrName: 'module',
 		} ) }
+		<CssStyle
+			selector={ orderClass }
+			attr={ attrs.css }
+			cssFields={ elements?.moduleMetadata?.customCssFields }
+		/>
 	</StyleContainer>
 );
 

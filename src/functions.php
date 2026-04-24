@@ -3,6 +3,9 @@
  *   Add customizer styles to <head>
  */
 function mphb_divi_customizer_css() {
+	if ( ! function_exists( 'et_get_option' ) ) {
+		return;
+	}
 
 	$button_text_size           = absint( et_get_option( 'all_buttons_font_size', '20' ) );
 	$button_text_color          = et_get_option( 'all_buttons_text_color', '#ffffff' );

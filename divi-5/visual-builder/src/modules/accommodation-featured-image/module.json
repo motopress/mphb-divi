@@ -10,21 +10,15 @@
 		"module": {
 			"type": "object",
 			"selector": "{{selector}}",
-			"default": {
-				"meta": {
-					"adminLabel": {
-						"desktop": {
-							"value": "HB Acc. Type Featured Image"
-						}
-					}
-				}
-			},
 			"settings": {
 				"meta": {
 					"adminLabel": {}
 				},
 				"decoration": {
+					"attributes": {},
 					"background": {},
+					"font": {},
+					"sizing": {},
 					"spacing": {},
 					"border": {},
 					"boxShadow": {},
@@ -34,7 +28,13 @@
 					"overflow": {},
 					"disabledOn": {},
 					"position": {},
-					"zIndex": {}
+					"zIndex": {},
+					"conditions": {},
+					"scroll": {},
+					"transition": {}
+				},
+				"advanced": {
+					"link": {}
 				}
 			}
 		},

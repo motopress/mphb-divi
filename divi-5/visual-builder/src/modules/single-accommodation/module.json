@@ -11,29 +11,27 @@
 			"type": "object",
 			"selector": "{{selector}}",
 			"settings": {
+				"meta": {
+					"adminLabel": {}
+				},
 				"decoration": {
-					"animation": {},
+					"attributes": {},
 					"background": {},
-					"bodyFont": {},
-					"border": {},
-					"boxShadow": {},
-					"button": {},
-					"disabledOn": {},
-					"filters": {},
-					"interactions": {},
 					"font": {},
-					"icon": {},
-					"headingFont": {},
-					"overflow": {},
-					"order": {},
-					"position": {},
-					"scroll": {},
 					"sizing": {},
 					"spacing": {},
-					"sticky": {},
+					"border": {},
+					"boxShadow": {},
+					"filters": {},
 					"transform": {},
-					"transition": {},
-					"zIndex": {}
+					"animation": {},
+					"overflow": {},
+					"disabledOn": {},
+					"position": {},
+					"zIndex": {},
+					"conditions": {},
+					"scroll": {},
+					"transition": {}
 				}
 			}
 		},

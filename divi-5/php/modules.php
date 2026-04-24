@@ -8,6 +8,7 @@ use ET\Builder\Framework\DependencyManagement\Interfaces\DependencyInterface;
 use ET\Builder\FrontEnd\Module\Style;
 use ET\Builder\Framework\Utility\HTMLUtility;
 use ET\Builder\Packages\Module\Module;
+use ET\Builder\Packages\Module\Options\Css\CssStyle;
 use ET\Builder\Packages\Module\Options\Element\ElementClassnames;
 use ET\Builder\Packages\ModuleLibrary\ModuleRegistration;
 
@@ -86,12 +87,6 @@ if ( ! class_exists( 'MPHB_Divi_5_Modules' ) ) {
 				)
 			);
 
-			$module_elements = $elements->style_components(
-				array(
-					'attrName' => 'module',
-				)
-			);
-
 			return Module::render(
 				array(
 					'orderIndex'          => $block->parsed_block['orderIndex'] ?? 0,
@@ -104,7 +99,7 @@ if ( ! class_exists( 'MPHB_Divi_5_Modules' ) ) {
 					'classnamesFunction'  => array( __CLASS__, 'module_classnames' ),
 					'stylesComponent'     => array( __CLASS__, 'module_styles' ),
 					'scriptDataComponent' => array( __CLASS__, 'module_script_data' ),
-					'children'            => $module_elements . $module_inner,
+					'children'            => $module_inner,
 				)
 			);
 		}
@@ -148,10 +143,17 @@ if ( ! class_exists( 'MPHB_Divi_5_Modules' ) ) {
 							array(
 								'attrName'   => 'module',
 								'styleProps' => array(
-									'disabledOn' => array(
+									'disabledOn'     => array(
 										'disabledModuleVisibility' => $args['settings']['disabledModuleVisibility'] ?? null,
 									),
 								),
+							)
+						),
+						CssStyle::style(
+							array(
+								'selector'  => $args['orderClass'],
+								'attr'      => $args['attrs']['css'] ?? array(),
+								'cssFields' => \WP_Block_Type_Registry::get_instance()->get_registered( $args['name'] )->customCssFields,
 							)
 						),
 					),

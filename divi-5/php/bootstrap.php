@@ -146,7 +146,7 @@ add_action(
 		\ET\Builder\VisualBuilder\Assets\PackageBuildManager::register_package_build(
 			array(
 				'name'    => 'mphb-divi-d5-visual-builder',
-				'version' => (string) filemtime( $build ),
+				'version' => MPHB_DIVI_VERSION,
 				'script'  => array(
 					'src'                => plugin_dir_url( dirname( __DIR__ ) ) . 'divi-5/visual-builder/build/mphb-divi-d5.js',
 					'deps'               => array(
