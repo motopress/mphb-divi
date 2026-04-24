@@ -19,9 +19,12 @@ Useful links: [How The Hotel Booking Divi Addon Works](https://motopress.com/blo
 
 ## Getting Started
 
-* In the plugin directory run `npm install`.
-* Run `npm run start` to watch changes in .jsx files and compile it.
-* Run `npm run build` to compile .jsx files once.
+* Divi 4 assets: `cd divi-4 && npm install`
+* Divi 4 watch build: `cd divi-4 && npm run start`
+* Divi 4 production build: `cd divi-4 && npm run build`
+* Divi 5 Visual Builder assets: `cd divi-5/visual-builder && npm install`
+* Divi 5 Visual Builder watch build: `cd divi-5/visual-builder && npm run start`
+* Divi 5 Visual Builder production build: `cd divi-5/visual-builder && npm run build`
 
 ## Support
 This is a developer's portal for the Hotel Booking & Divi Integration plugin and should not be used for support. Please visit the support page if you need to submit a support request.

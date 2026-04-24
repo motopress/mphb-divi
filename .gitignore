@@ -22,3 +22,6 @@ yarn-debug.log*
 yarn-error.log*
 /.idea/
 /assets/.sass-cache/
+/divi-4/node_modules
+/divi-5/visual-builder/node_modules
+*.code-workspace

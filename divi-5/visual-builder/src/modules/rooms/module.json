@@ -1,0 +1,560 @@
+{
+	"name": "mphb-divi/rooms",
+	"d4Shortcode": "mphb-divi-accommodations",
+	"title": "HB Accom. List",
+	"titles": "HB Accom. List",
+	"category": "module",
+	"moduleClassName": "mphb-divi-accommodations",
+	"moduleOrderClassName": "mphb-divi-accommodations",
+	"attributes": {
+		"module": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"settings": {
+				"meta": {
+					"adminLabel": {}
+				},
+				"decoration": {
+					"attributes": {},
+					"background": {},
+					"font": {},
+					"sizing": {},
+					"spacing": {},
+					"border": {},
+					"boxShadow": {},
+					"filters": {},
+					"transform": {},
+					"animation": {},
+					"overflow": {},
+					"disabledOn": {},
+					"position": {},
+					"zIndex": {},
+					"conditions": {},
+					"scroll": {},
+					"transition": {}
+				}
+			}
+		},
+		"shortcode": {
+			"type": "object",
+			"selector": "{{selector}}",
+			"settings": {
+				"advanced": {
+					"title": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 10,
+							"render": true,
+							"label": "Title",
+							"description": "Whether to display the accommodation title.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"featured_image": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 20,
+							"render": true,
+							"label": "Featured image",
+							"description": "Whether to display the accommodation featured image.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"gallery": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 30,
+							"render": true,
+							"label": "Gallery",
+							"description": "Whether to display the accommodation gallery.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"excerpt": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 40,
+							"render": true,
+							"label": "Excerpt",
+							"description": "Whether to display the accommodation excerpt.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"details": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 50,
+							"render": true,
+							"label": "Details",
+							"description": "Whether to display the accommodation details.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"price": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 60,
+							"render": true,
+							"label": "Price",
+							"description": "Whether to display the accommodation price.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"view_button": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 70,
+							"render": true,
+							"label": "View Button",
+							"description": "Whether to display the View Details button.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"book_button": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 80,
+							"render": true,
+							"label": "Book Button",
+							"description": "Whether to display the Book button.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/toggle",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"ids": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 90,
+							"render": true,
+							"label": "IDs",
+							"description": "Comma-separated IDs of accommodations that will be shown.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"category": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 100,
+							"render": true,
+							"label": "Category",
+							"description": "Comma-separated IDs of categories that will be shown.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"tags": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 110,
+							"render": true,
+							"label": "Tags",
+							"description": "Comma-separated IDs of tags that will be shown.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"relation": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 120,
+							"render": true,
+							"label": "Logical relationship",
+							"description": "Logical relationship between taxonomies when more than one is set.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/select",
+								"type": "field",
+								"props": {
+									"defaultValue": "OR",
+									"options": {
+										"AND": {
+											"label": "AND"
+										},
+										"OR": {
+											"label": "OR"
+										}
+									}
+								}
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"posts_per_page": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 130,
+							"render": true,
+							"label": "Count per page",
+							"description": "Integer, -1 to display all, default: blog pages show at most.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"orderby": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 140,
+							"render": true,
+							"label": "Sort by",
+							"description": "ID, title, date, menu_order and other supported values.",
+							"category": "basic_option",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"order": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 150,
+							"render": true,
+							"label": "Order",
+							"description": "Designates the ascending or descending order of sorting.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/select",
+								"type": "field",
+								"props": {
+									"defaultValue": "DESC",
+									"options": {
+										"ASC": {
+											"label": "ASC"
+										},
+										"DESC": {
+											"label": "DESC"
+										}
+									}
+								}
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"meta_key": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 160,
+							"render": true,
+							"label": "Custom field name",
+							"description": "Required if orderby uses a meta_value variant.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"meta_type": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 170,
+							"render": true,
+							"label": "Custom field type",
+							"description": "Specified type of the custom field for meta_value sorting.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					},
+					"class": {
+						"groupType": "group-item",
+						"item": {
+							"groupSlug": "contentOptions",
+							"priority": 180,
+							"render": true,
+							"label": "Class",
+							"description": "Custom CSS class for shortcode wrapper.",
+							"category": "configuration",
+							"component": {
+								"name": "divi/text",
+								"type": "field"
+							},
+							"features": {
+								"hover": false,
+								"sticky": false,
+								"responsive": false,
+								"preset": "content"
+							}
+						}
+					}
+				}
+			},
+			"default": {
+				"advanced": {
+					"title": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"featured_image": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"gallery": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"excerpt": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"details": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"price": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"view_button": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"book_button": {
+						"desktop": {
+							"value": "on"
+						}
+					},
+					"ids": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"category": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"tags": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"relation": {
+						"desktop": {
+							"value": "OR"
+						}
+					},
+					"posts_per_page": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"orderby": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"order": {
+						"desktop": {
+							"value": "DESC"
+						}
+					},
+					"meta_key": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"meta_type": {
+						"desktop": {
+							"value": ""
+						}
+					},
+					"class": {
+						"desktop": {
+							"value": ""
+						}
+					}
+				}
+			}
+		}
+	},
+	"settings": {
+		"content": "auto",
+		"design": "auto",
+		"advanced": "auto",
+		"groups": {
+			"contentOptions": {
+				"panel": "content",
+				"priority": 10,
+				"multiElements": true,
+				"groupName": "options",
+				"component": {
+					"name": "divi/composite",
+					"props": {
+						"groupLabel": "Options"
+					}
+				}
+			}
+		}
+	}
+}
