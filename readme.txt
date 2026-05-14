@@ -56,12 +56,14 @@ Use a dedicated Divi module to place an individual availability calendar to any 
 
 This add-on comes with a suite of modules designed to beautifully showcase individual listings, where you can add, delete or move elements used to build your listing! Include dedicated widgets for images, pricing, descriptions, book buttons, rates and more.
 
-
 ### Customization, Styles, Colors etc.
 
 No need for custom CSS code - you'll go deeper in layouts customization, button styles and colors, spacing, booking forms format, font size and more with the standard Divi toolkit and WordPress Customizer. The Hotel Booking & Divi Integration plugin adds twelve major Hotel Booking modules to the Divi Builder, while the system page shortcodes are left up to the theme styling.
 
 Here is a detailed guide how to implement a [reservation and property management system into the Divi](https://motopress.com/blog/divi-theme-hotel-booking-wordpress/?utm_source=wp-org-divi-addon-page&utm_medium=text-link) theme.
+
+### Optimized for Divi 5 Framework
+Use MotoPress Hotel Booking modules with Divi 5 and enjoy a smoother customization experience for booking forms, accommodation listings, availability calendars, and more.
 
 ### Requirements
 * Divi theme.
